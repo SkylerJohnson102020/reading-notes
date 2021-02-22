@@ -11,6 +11,9 @@ Learning a new language is not easy, it takes time. To my musician colleagues ou
 
 I can also make word **bold** or _italicized_ using two asterisks on either side of the text I would like to make bold at one underscore on each side of the text I would like italicized. **_I can even combine them both!_**
 
+I can use a quote simply by putting my text on this line.
+> Then on the line below, start this line with a > and your tex will look like so!
+
 
 #### I can even drop in links using [] for text and () for the url.
 [This is my link to a Backpacker Page](https://www.backcountry.com)

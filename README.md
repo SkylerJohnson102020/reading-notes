@@ -17,3 +17,6 @@ In his own words:
 > _“As time passes, I realize that I must keep doing it, so that I can **KEEP** doing it!”_
 
 For more about me, vist my [GitHub Portfolio](https://github.com/SkylerJohnson102020)
+
+#### Table of Contents
+[Reading Class 2](read02.md)

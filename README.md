@@ -21,5 +21,6 @@ I can use a quote simply by putting my text on this line.
 
 I can use tables as well to help convey my thoughts in a more constructive manner.
 First Category | Second Category | Third Category
+---------------|-----------------|---------------
 Info from column 1 | Info from column 2 | Info from column 3
 Row 2 Column 1 | Row 2 Column 2 | Row 3 Column 3

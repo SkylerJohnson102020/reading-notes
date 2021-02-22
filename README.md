@@ -1,7 +1,7 @@
 # Learning About Markdown
 
 ## What I have learned so far.
-Learning a new language is not easy, it takes time. To my musician colleagues out there, learning a new computer language such Markdow is just like learning how to read music; it isn't a spoken language, but more of one you read and translate. You can do a lot with this language to build your own website. For example, I can make headings using the # symbol. I can use anywhere from one # for my largest heading like the one and the top of this page, or I can use six # to show my smallest heading like the one below.
+Learning a new language is not easy, it takes time. To my musician colleagues out there, learning a new computer language such Markdown is just like learning how to read music; it isn't a spoken language, but more of one you read and translate. You can do a lot with this language to build your own website. For example, I can make headings using the # symbol. I can use anywhere from one # for my largest heading, like the one and the top of this page, or I can use six # to show my smallest heading like the one below.
 
 ###### The smallest heading size using six #.
 
@@ -10,10 +10,10 @@ Learning a new language is not easy, it takes time. To my musician colleagues ou
 * Item 2
 * Item 3
 
-I can also make word **bold** or _italicized_ using two asterisks on either side of the text I would like to make bold at one underscore on each side of the text I would like italicized. **_I can even combine them both!_**
+I can also make a word **bold** or _italicized_ using two asterisks on either side of the text I would like to make bold at one underscore on each side of the text I would like italicized. **_I can even combine them both!_**
 
 I can use a quote simply by putting my text on this line.
-> Then on the line below, start this line with a > and your tex will look like so!
+> Then on the line below, start this line with a > and your text will look like so!
 
 #### I can even drop in links using [ ] for text and ( ) for the url.
 [This is my link to a Backpacker Page](https://www.backcountry.com)
@@ -27,7 +27,7 @@ I can use tables as well to help convey my thoughts in a more constructive manne
 Combine them! I can make a code tag suggestion in a quote and use some bold text!
 > You **should** probably use the <p> tag for this!
 
-So, **in conclusion**, _you can do a lot of different things with Markdown!_ Remember to always remeber the things below:
+So, **in conclusion**, _you can do a lot of different things with Markdown!_ Always remeber these key things below:
 ### Things to remember
 - Stay Positive.
 - **Never** give up!

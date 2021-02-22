@@ -15,12 +15,14 @@ I can also make word **bold** or _italicized_ using two asterisks on either side
 I can use a quote simply by putting my text on this line.
 > Then on the line below, start this line with a > and your tex will look like so!
 
-
 #### I can even drop in links using [ ] for text and ( ) for the url.
 [This is my link to a Backpacker Page](https://www.backcountry.com)
 
 I can use tables as well to help convey my thoughts in a more constructive manner.
 First Category | Second Category | Third Category
----------------|-----------------|---------------
+-------------- | --------------- | --------------
 Info from column 1 | Info from column 2 | Info from column 3
 Row 2 Column 1 | Row 2 Column 2 | Row 3 Column 3
+
+Combine them! I can make a code tag suggestion in a quote and use some bold text!
+> You **should** probably use the <p> tag for this!

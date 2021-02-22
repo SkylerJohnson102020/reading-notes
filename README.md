@@ -15,4 +15,4 @@ def hello_world:
 ```
 
 #### External Link
-[This is my link to a Backpacker Page](http://www.backcountry.com)
+[This is my link to a Backpacker Page](https://www.backcountry.com)

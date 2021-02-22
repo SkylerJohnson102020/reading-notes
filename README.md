@@ -20,9 +20,18 @@ I can use a quote simply by putting my text on this line.
 
 I can use tables as well to help convey my thoughts in a more constructive manner.
 | First Category | Second Category |
--------------- | --------------- |
+| -------------- | --------------- |
 | Info from column 1 | Info from column 2 |
 | Row 2 Column 1 | Row 2 Column 2 |
 
 Combine them! I can make a code tag suggestion in a quote and use some bold text!
 > You **should** probably use the <p> tag for this!
+
+So, **in conclusion**, _you can do a lot of different things with Markdown!_ Remember to always remeber the things below:
+### Things to remember
+- Stay Positive.
+- **Never** give up!
+- Always ask questions when you are stuck.
+- Be happy and willing to learn!
+
+Thank you so much for reading my page! I hope this will help you get started with using Markdown!

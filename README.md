@@ -1,37 +1,19 @@
-# Learning About Markdown
+# Welcome to Skyler Johnson's new GitHub Page!
 
-## What I have learned so far.
-Learning a new language is not easy, it takes time. To my musician colleagues out there, learning a new computer language such Markdown is just like learning how to read music; it isn't a spoken language, but more of one you read and translate. You can do a lot with this language to build your own website. For example, I can make headings using the # symbol. I can use anywhere from one # for my largest heading, like the one and the top of this page, or I can use six # to show my smallest heading like the one below.
+## About Me
+My name is **Skyler Johnson**, and at 37 years of age, I decided due to the COVID-19 pandemic to take a new path toward programming. This was a long and difficult decision to make, but ultimately what made this the right choice was my family and how heavily the pandemic has had an impact on my current field. For the last 20 years, I have pursued a career in music playing in several symphony orchestras and teaching at multiple universites. Currently, I am the bass trombonist of the Spokane Symphony Orchestra and faculty at Whitworth University. I am living in Spokane with my wife, Heather, and my 4 month old son, Jonah. Programming is very new to me but I am excited for a new beginning. I wanted to find a path that will allow me to apply my problem solving skills I developed through my training as a musician, and I believe programming is that path.
 
-###### The smallest heading size using six #.
+## My Growth Mindset
+My growth mindest stems directly from my training as a classical musician. As a performance major, you have weekly one-on-one lessons with your professor who specializes in the instrument that you are trying to perfect. There is no room for arrogance, back talk, or contradicting anything that your professor tells you, so you learn quite quickly to be swift to listen and slow to speak. Based on how well you prepare for your lesson, the tone can be supportive, positive, frustrating, negative, or even crushing. In my own personal growth, the lessons where I learned the most were the ones where my spirit was absolutely crushed. One might think an experience like this may destroy any remaining desire to continue pursuing this career, let alone the next lesson, but these experiences helped me to take a step back, analyze my situation, and strive to do better the next lesson. Whether it be in a lesson, rehearsing with an ensemble, or practicing by yourself, you are always thinking about how you can make your craft better. In rehearsal, it is very easy to blame others musicians for the problems that you encounter. From my standpoint, I adhere to the age old saying, "If you point the finger at someone, just realize that you have three pointing right back at you." 
 
-### My three # size headline plus a list below using asterisks for each item on each line.
-* Item 1
-* Item 2
-* Item 3
+**My growth mindset reminders:**
+- If I encounter a problem, I will use all of my tools and training to help me work through to learn how to perform a task.
+- I will always be open and willing to ask for help when necessary.
+- If I feel as though I am getting frustrated or impatient, I will take a step back, breathe/reset, and attack a problem constructively. Sometimes I need a brief mental breather.
 
-I can also make a word **bold** or _italicized_ using two asterisks on either side of the text I would like to make bold at one underscore on each side of the text I would like italicized. **_I can even combine them both!_**
+## Applying My Growth Mindset to Other Parts of Life
+I apply my growth mindset to many other things then just my work life. This applies to spending time with my son and helping him grow, working on my house, exercising, and nutrition. One of my instructors in Chicago is the bass tromboinst of the Chicago Symphony, [Charles Vernon](https://cso.org/about/performers/chicago-symphony-orchestra/trombone/charles-vernon/). Just to give some context, this man is better than ever at his craft and in terrific physical condition in his early 70s. In his late 60s and early 70s, this man earned a black belt in Tae Kwon Do, swam one of the channels in the Great Lakes, and beat diabetes dropping 40 pounds in 3 months. This man is an inspiration to me to just keep going.
+In his own words:
+> _“As time passes, I realize that I must keep doing it, so that I can **KEEP** doing it!”_
 
-I can use a quote simply by putting my text on this line.
-> Then on the line below, start this line with a > and your text will look like so!
-
-#### I can even drop in links using [ ] for text and ( ) for the url.
-[This is my link to a Backpacker Page](https://www.backcountry.com)
-
-I can use tables as well to help convey my thoughts in a more constructive manner.
-| First Category | Second Category |
-| -------------- | --------------- |
-| Info from column 1 | Info from column 2 |
-| Row 2 Column 1 | Row 2 Column 2 |
-
-Combine them! I can make a code tag suggestion in a quote and use some bold text!
-> You **should** probably use the <p> tag for this!
-
-So, **in conclusion**, _you can do a lot of different things with Markdown!_ Always remeber these key things below:
-### Things to remember
-- Stay Positive.
-- **Never** give up!
-- Always ask questions when you are stuck.
-- Be happy and willing to learn!
-
-Thank you so much for reading my page! I hope this will help you get started with using Markdown!
+For more about me, vist my [GitHub Portfolio](https://github.com/SkylerJohnson102020)

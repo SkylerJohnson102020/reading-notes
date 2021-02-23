@@ -31,7 +31,7 @@ The above commands are extremely important. Here are some more:
 - git init - This command initializes existing repo
 - git commit -m "any message here" - to add a note regarding possible changes
 - git clone url of website - by cloning, you will have copied all versions of all files for a project. This will creat a dir. called "test" with a .git directory inside, which has all the files copied.
-- git clon url mydirectory - makes a copy of target repo in a target directory, so mydirectory.
+- git clone url mydirectory - makes a copy of target repo in a target directory, so mydirectory.
 - code . - to access my VScode
 - git status - to check the state of files
 - git add filename - track one file in repo

@@ -1,4 +1,3 @@
-
 # Read 03 Notes
 
 This is is tougher subject for me to learn, but I am slowly learning how to use the git from the terminal.
@@ -21,13 +20,14 @@ This allows multiple repositiories so each team member has a copy to work with. 
 2. You stage the modified file
 3. Then commit staged commands
 
-### Here is a list of things you need to know
-# ACP. or Add, Commit, Push
+# Here is a list of things you need to know
+## ACP. or Add, Commit, Push
 - git add file - this will add a file
 - git commit - this will commit any changes to the file
 - git push - this will commit changes to github
 
 The above commands are extremely important. Here are some more:
+- git add . - add any and all changes made
 - git init - This command initializes existing repo
 - git commit -m "any message here" - to add a note regarding possible changes
 - git clone url of website - by cloning, you will have copied all versions of all files for a project. This will creat a dir. called "test" with a .git directory inside, which has all the files copied.
@@ -47,7 +47,6 @@ The above commands are extremely important. Here are some more:
 - rm - to remove files
 
 These are the most basic ones and should get you through the basics. You can always check into [Git Intro](https://blog.udemy.com/git-tutorial-a-comprehensive-guide/#1)
-
 
 [Back to home](README.md)
 

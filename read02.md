@@ -21,6 +21,6 @@ From reading The Old Coder's article, I learned that the use of a particular tex
 - mv - move
 - cp - copy
 
-
+https://skylerjohnson102020.github.io/reading-notes/read02.html
 
 [<==Back](README.md)

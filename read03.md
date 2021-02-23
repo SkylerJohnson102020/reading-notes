@@ -28,3 +28,5 @@ These are the most basic ones and should get you through the basics. You can alw
 
 
 [Back to home](README.md)
+
+https://skylerjohnson102020.github.io/reading-notes/read03.html

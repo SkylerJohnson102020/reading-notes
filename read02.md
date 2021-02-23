@@ -20,4 +20,7 @@ Use the Tab completion to use auto complete. If nothing comes up, then this mean
 /bin - The location of several commonly used programs
 mv - move
 cp - copy
+
 https://skylerjohnson102020.github.io/reading-notes/read02.html (Links to an external site.)
+
+[Back to Homepage](README.md)

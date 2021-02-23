@@ -1,6 +1,20 @@
 # Read 03 Notes
 
 This is is tougher subject for me to learn, but I am slowly learning how to use the git from the terminal.
+
+## Centralized Version Control
+This system is a single server storing all changes and file versions, accessible to various users. 
+
+
+
+
+
+##Local Repo Structure - there are three components
+1. Working directory - The actual files reside here
+2. Index - The area used for staging
+3. Head - The most recent commit
+
+
 ### Here is a list of things you need to know
 ACP. or Add, Commit, Push
 - git add file - this will add a file

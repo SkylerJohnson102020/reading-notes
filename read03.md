@@ -2,21 +2,26 @@
 
 This is is tougher subject for me to learn, but I am slowly learning how to use the git from the terminal.
 
-## Centralized Version Control
+## Centralized Version Control or CVS
 This system is a single server storing all changes and file versions, accessible to various users. 
 
+## Distributed Version Control System or DVCS
+This allows multiple repositiories so each team member has a copy to work with. This ensures that data will not be lost since it is stored in multiple locations, most likely each individual's local. This is a good safety net over the CVS to ensure the files will be safe if the CVS has a critical failure and loses all files.
 
-
-
-
-##Local Repo Structure - there are three components
+## Local Repo Structure - there are three components
 1. Working directory - The actual files reside here
 2. Index - The area used for staging
 3. Head - The most recent commit
 
+## Tracked vs Untracked
+- Tracked files can be modified, unmodified, or staged. These were part of the most recent snapshot.
+- Untracked files were not in the last snapshot and aren't currently in staging area.
+1. After you edit a file, Git flags it as modified
+2. You stage the modified file
+3. Then commit staged commands
 
 ### Here is a list of things you need to know
-ACP. or Add, Commit, Push
+# ACP. or Add, Commit, Push
 - git add file - this will add a file
 - git commit - this will commit any changes to the file
 - git push - this will commit changes to github
@@ -37,6 +42,8 @@ The above commands are extremely important. Here are some more:
 - git stash apply - to find stashed files you haven't yet commited
 - git remote - to view shortnames
 - git remote -v - to view remote urls
+- touch - to create a file
+- rm - to remove files
 
 These are the most basic ones and should get you through the basics. You can always check into [Git Intro](https://blog.udemy.com/git-tutorial-a-comprehensive-guide/#1)
 

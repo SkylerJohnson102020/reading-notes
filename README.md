@@ -18,7 +18,9 @@ In his own words:
 
 For more about me, vist my [GitHub Portfolio](https://github.com/SkylerJohnson102020)
 
-#### Table of Contents
+### Table of Contents
 [Reading Class 2](read02.md)
 
 [Reading Class 3](read03.md)
+
+[Reading Class 4](read04.md)

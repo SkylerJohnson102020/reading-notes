@@ -75,6 +75,64 @@ Html stands for **Hypertext Markup Language**. Html is the structure of a websit
 
 There are many tags that you can use and there are many different types of tags. There are many different types of basic tags, formatting tags, form and input, images, links, frames, lists, tables, and the list goes on from there. First things first, you have to start your file with a DOCTYPE command, and certainly select html.
 
+## Chapter 8 Extra Markup
+- If you want to add in a message into the code that the viewer will not see, the contents of the tage should begin with ! and double -- on either side, so:
+
+            <!-- message here -->
+
+These are good as working messages for when you come back to work on your code, you give yourself a little guidance on what to do next.
+
+- ID attribute - Also know as **global attribute**, because this can be used on any element. So:
+
+            <p id="pullquote">
+
+- Class Attribute - a single attribute that can impact multiple elements. "Class"
+
+- Block elements - These elements appear to start on a new line in the page, you will see white spacing. examples include:
+
+            <h1>, <p>, <ul>, and <li>
+
+- Inline elements - these elements appear to continue in the same line or text so the surrounding elements. Examples include:
+
+            <a>, <b>, <em>, and <img>
+
+- Grouping Text and Elements in a Block - this is the **"div"** tag. This tag helps you setup elements in a block-level box. You might use this to contain all elements for your header or use it it contain comments from visiors. 
+
+- Grouping Text and elements inline - the **"span"** tag. You can use this in two way:
+1. To contain a chunk of wording where there is no element to help differentiate it from the other text.
+2. Use it to a contain multiple inline elements.
+
+This tag will help people control the look of the content in CSS.
+
+- IFRAMES - this tag **"iframe"** can bring a small window of another webpage onto your page. Like when google maps appears on a lot of restaurant listings. Common attributes you can use for this are:
+
+            src= helps direct a certain url into your page to show in the small window
+            height= height of frame
+            width= width of frame
+            scrolling= scrolling is not supported in HTML5. HTML4 or XHTML shows wheter or not the frame will have scroll bars. You can add three values to thi att.
+                1. Yes, to show scroll bars
+                2. No, to hide them
+                3. Auto, to show if needed
+            frameborder= not supported in HTML5. Shows in other versions if the frame should have a border or not.
+            seamless= this can be applied to an iframe if scrollbars are not necessary. No value is needed to be added to this attribute.
+
+- Information about your pages - the **meta** tag or element is contained inside the head. This will contain info about the webpage. This element tells a search engine information about your website. Things like wheter or not your page is time sensitive or will expire/time out, about your page, and who created it. **No closing tag for this element.** This uses a number of att. to hold info. Most likely you will use name and content atts. So:
+
+            <meta name="value">
+            <meta content="value">
+            <meta http-equiv="value">
+
+Values include
+    - Description - helps search engines know what your page is about
+    - keywords - common words a user might use to find your website
+    - robots - determines wheter or not a search engine will include your page to it's results
+    - author - who wrote the page
+    - pragma - this prevents the browser from caching or storing this page locally (to your computer) to save time downloading it on future visits.
+    - expires - Since browsers often cache content of the page, the expires value can be applied to indicate when a page should expire and no longer be cached.
+
+- Escape Characters - 
+
+
 ## Here are a few basic tags
     <h1><h2> - main heading
     <title> - use for the title of the page in the tab

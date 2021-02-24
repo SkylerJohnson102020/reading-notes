@@ -27,3 +27,8 @@ You can select a class in your CSS document by using the class selctor. THis is 
 - You can use the value to indicate color, background color, and more.
 - Contrast - you can use contrast to ensure that your text over the color is readable. The colors can't be so similar that you cannot read the text.
 - Opacity refers to the ability to see through a feature on your page and see another feature behind, so the overlap is visible. 
+- Lightness - is the amount of white (lightness) or black (darkness) in a color.
+- Hue is expressed as an angle, 0 to 360 degrees
+- Saturation is expressed as a percentage
+- Lightness is expressed with a percentage of 0 being white, 50% being normal, and 100% being black.
+- Alpha - expressed between 0 and 1.0. 0.5 is 50% transperancy and 0.75 is 75% transperancy.

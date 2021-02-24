@@ -1,5 +1,6 @@
 # Read 04 Notes HTML
 
+# Duckett Chapter 18
 ## Who is your site for?
 #### Ask Yourself:
 - Age range of my target audience
@@ -46,15 +47,29 @@ Some sites need more updates then others depending on what they're about. Someth
 - Distinction
     - Make other parts more distict to either draw attention to or from something.
 
-- Visual Hierarchy
-    - Where do you want to visitior to look first when visiting a page? Where does the visitor's attention go first? This refers to the order in which a vistior's eyes see the site. It what order are your items seen? Make sure you use size, color, and style to accomplish this.
-        - Size, specifically larger items. Larger items like large text or heading can grab attention.
-        - Color - Either foreground and background color can draw attention to something you're wanting to highlight. Brighter sections tend to draw visitors in first.
-        - Style - A specific item may blend too well into the page and maybe needs to need more style. An example of this is playing around with fonts when you want something to stand out. 
+## Visual Hierarchy
+ - Where do you want to visitior to look first when visiting a page? Where does the visitor's attention go first? This refers to the order in which a vistior's eyes see the site. It what order are your items seen? Make sure you use size, color, and style to accomplish this.
+    - Size, specifically larger items. Larger items like large text or heading can grab attention.
+     - Color - Either foreground and background color can draw attention to something you're wanting to highlight. Brighter sections tend to draw visitors in first.
+     - Style - A specific item may blend too well into the page and maybe needs to need more style. An example of this is playing around with fonts when you want something to stand out. 
     
     - Images are huge when it comes to Visual Hierarchy. These often catch the viewer's attention first. 
 
-- Balance - 
+- Balance - make sure you have balance in your site to make things look even. there are many ways to achieve this through all elements. Nothing specific here, just make sure you keep this mind.
+
+## Grouping and Similaritry
+    - Proximity - If items are close together, they are viewed as related.
+    - Closure - If we have a more complicated arrangement or shape of items, we will look for single patterns, or look more closely at the content.
+    - Continuance - These items appear to have direction, thus also appear related. This can be used to lead a viewer in a direction.
+    - White space - less space between related items, more space to separate unrelated items.
+    - Color - Color behind related items to further show their relation.
+    - Borders - These can be used to groupd items.
+    - Consistency -  put text in multiple blocks in the same style but with white space separating them.
+    - Headings - Give a paragraph a larger heading to show this distinction
+
+## Navigation
+Site navigation gives your viewers a map of where to go. Make sure you are concise, clear, and selective with this. There are three different types of navigation. **Primary** navigation most likely will appear across the top of a page or left or right. **Secondary** navigation might be underneath the primary navigation. **Tertiary** navigation is most often at the bottom of page in the footer. Make sure you offer context, do you navigation names offer intrest, curiosity, or tell a story? Be clear with this. Make sure the links are large enough and visible. Make sure in the **primary** navigation bar that there is a color highlighting, an arrow pointing, or some other way to communicate to the viewer where they are on your page.
+
 
 Html stands for **Hypertext Markup Language**. Html is the structure of a website. Stictly using html is not very pretty to look at as it is only the structure. All you will see is mainly text and perhaps some photos. CSS is how we stylize our website, but we will get into that later. Html is comprised of a lot of tags. These tags contain an opening and closing tags, attributes, and you include contents as well.
 

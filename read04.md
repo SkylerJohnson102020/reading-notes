@@ -76,7 +76,7 @@ Html stands for **Hypertext Markup Language**. Html is the structure of a websit
 There are many tags that you can use and there are many different types of tags. There are many different types of basic tags, formatting tags, form and input, images, links, frames, lists, tables, and the list goes on from there. First things first, you have to start your file with a DOCTYPE command, and certainly select html.
 
 ## Here are a few basic tags
-    <h1><h2> - heading or titles
+    <h1><h2> - main heading
     <title> - use for the title of the page in the tab
     <html> - open and close your document with this 
     <head> - is a container placed between html tags

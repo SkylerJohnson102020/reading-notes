@@ -21,6 +21,18 @@ There are **two basic categories** to keep in mind
 1. What is the motivation behind an individual visiting my site?
 2. What are the goals of these visitors when visiting the site?
 
+#### What information do my visitors want to see?
+- Are they familiar with your brand or do you need to explain yourself?
+- Will they know your product or do you need to give an explanation?
+- What are the most important features of what you're selling?
+- What makes you different from others who offer something similar?
+- Are there FAQs about your site from visitors?
+
+Some sites need more updates then others depending on what they're about. Something like a sports website like Bleacher Report will have to update more frequently since many new events happen everyday. A roofing company won't need to update as frequently. One needs to determine how often to update in order to keep people visiting.
+
+## What do I do now?
+
+
 Html stands for **Hypertext Markup Language**. Html is the structure of a website. Stictly using html is not very pretty to look at as it is only the structure. All you will see is mainly text and perhaps some photos. CSS is how we stylize our website, but we will get into that later. Html is comprised of a lot of tags. These tags contain an opening and closing tags, attributes, and you include contents as well.
 
 There are many tags that you can use and there are many different types of tags. There are many different types of basic tags, formatting tags, form and input, images, links, frames, lists, tables, and the list goes on from there. First things first, you have to start your file with a DOCTYPE command, and certainly select html.

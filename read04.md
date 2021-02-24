@@ -15,3 +15,7 @@ There are many tags that you can use and there are many different types of tags.
     <img> - image <img src="url here">
     <p> - used for paragraphs, text
     <link> - connect an external link
+
+These are just a few tips on how to get started with HTML
+
+[Back to Homepage](README.md)

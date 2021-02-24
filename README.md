@@ -24,3 +24,5 @@ For more about me, vist my [GitHub Portfolio](https://github.com/SkylerJohnson10
 [Reading Class 3](read03.md)
 
 [Reading Class 4](read04.md)
+
+[Reading Class 5](read05.md)

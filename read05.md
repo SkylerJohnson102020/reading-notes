@@ -32,3 +32,5 @@ You can select a class in your CSS document by using the class selctor. THis is 
 - Saturation is expressed as a percentage
 - Lightness is expressed with a percentage of 0 being white, 50% being normal, and 100% being black.
 - Alpha - expressed between 0 and 1.0. 0.5 is 50% transperancy and 0.75 is 75% transperancy.
+
+[Back to Homepage](README.md)

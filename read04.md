@@ -47,7 +47,14 @@ Some sites need more updates then others depending on what they're about. Someth
     - Make other parts more distict to either draw attention to or from something.
 
 - Visual Hierarchy
-    - Where do you want to visitior to look first when visiting a page?
+    - Where do you want to visitior to look first when visiting a page? Where does the visitor's attention go first? This refers to the order in which a vistior's eyes see the site. It what order are your items seen? Make sure you use size, color, and style to accomplish this.
+        - Size, specifically larger items. Larger items like large text or heading can grab attention.
+        - Color - Either foreground and background color can draw attention to something you're wanting to highlight. Brighter sections tend to draw visitors in first.
+        - Style - A specific item may blend too well into the page and maybe needs to need more style. An example of this is playing around with fonts when you want something to stand out. 
+    
+    - Images are huge when it comes to Visual Hierarchy. These often catch the viewer's attention first. 
+
+- Balance - 
 
 Html stands for **Hypertext Markup Language**. Html is the structure of a website. Stictly using html is not very pretty to look at as it is only the structure. All you will see is mainly text and perhaps some photos. CSS is how we stylize our website, but we will get into that later. Html is comprised of a lot of tags. These tags contain an opening and closing tags, attributes, and you include contents as well.
 

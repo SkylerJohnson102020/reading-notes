@@ -31,7 +31,23 @@ There are **two basic categories** to keep in mind
 Some sites need more updates then others depending on what they're about. Something like a sports website like Bleacher Report will have to update more frequently since many new events happen everyday. A roofing company won't need to update as frequently. One needs to determine how often to update in order to keep people visiting.
 
 ## What do I do now?
+- Create a site map 
+    - A site map is a diagram of the all the pages you are using to       strucutre you site.
 
+- Card Sorting
+    - Card sorting is a technique to help you decide what goes where. Essentially creating a map of where everthing is categorically.
+
+- Wireframing
+    -This is drawing of how each page should appear. This can even be drawn on a piece of paper. This will help give you a better idea of how each page will look. Consider it like a blueprint. 
+
+- Organization 
+    - You will have a lot of information, make sure you think clearly about how you want to organize all of this info in a way to where it appears clear and readable. You can group content blocks together to help accomplish this.
+
+- Distinction
+    - Make other parts more distict to either draw attention to or from something.
+
+- Visual Hierarchy
+    - Where do you want to visitior to look first when visiting a page?
 
 Html stands for **Hypertext Markup Language**. Html is the structure of a website. Stictly using html is not very pretty to look at as it is only the structure. All you will see is mainly text and perhaps some photos. CSS is how we stylize our website, but we will get into that later. Html is comprised of a lot of tags. These tags contain an opening and closing tags, attributes, and you include contents as well.
 

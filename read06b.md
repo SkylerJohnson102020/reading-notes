@@ -71,11 +71,28 @@ For example: The number 9 in binary is 1001. The first 1 is in or 8 spot. Is the
 
 - CPU is the **Central Processing Unit** where all information is calculated and processed. 
 
+- For extremely large tasks like virtual reality, hi def movies, etc., you may need multiple CPUS to make it powerful enough to process the information, and many gigabytes of memory to store it.
 
+## Hardware and Software
 
+- When you look into a computer, you see all sorts of circuits, chips, wires, speakers, plugs, and other things, this is the **Hardware**. What we don't see, is the software.
 
+- The **Software** is all of the computer programs, or code, that is running on a machine. This can be games, websites, apps, maps, creative programs, or analysis.
 
+- **How do these two interact?** Let's look at the **CPU**. The **CPU** is the master chip. This controls all of the different parts of the computer. The CPU knows exactly what circuit(s) to use and when it wants to use them. 
 
+Ex. an Add command may go into another circuit and process the information. After that, a Store command comes in telling the CPU to use another circuit to store the info in memory.
 
+- Software tells the CPU what to do.
+
+- How do programs get on a computer?
+
+- How can a CPU run multiple programs at once?
+
+### The Operating System
+
+- The master program that controls how the software uses the hardware of a computer.
+
+- The OS allows you to load new programs into your computer's memory. It can use the CPU and send Output. Etc.
 
 [Back to Homepage](README.md)

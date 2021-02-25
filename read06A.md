@@ -18,6 +18,42 @@ There are a few parts to a line of javascript code.
 - We can place our script element anywhere we want in our html code. 
 - The script element is set of instruction instructing that a particular computer will be able to follow in order one at a time. A single instruction is a **statement**. All statements should end with a ;.
 
+#### Statements
 
+            var today = new Date();
+            var hourNow = today.getHours();
+            var greeting;
+
+            if (hourNow > 18) {
+                greetng = 'Good Evening!';
+            } else if (hourNow > 12) {
+                greeting = 'Good Afternoon!';
+            } else if (hourNow > 0) {
+                greeting = 'Good Morning!';
+            } else {
+                greeting = 'Welcome!';
+            }
+
+            document.write('<hjs>' + greeting + '</hjs>');
+
+In the js example above you will see an example of a varied greeting. The lines beginning with var, greeting, and document are statements. The curly brackets indicate the beginning and end of a code block. The else if lines determines what code will run in this order. 
+
+### **Statements** are one to a line, you must have only one statement per line and the statents are, in a nutshell, instructions. 
+
+- Each one is a single instruction that the computer will follow. 
+- Each one begins on it's own line and will end with a ;
+- The semicolon is important at the end of your code since it will tell the js interpreter that the instruction is complete telling it to go onto the next instruction or step.
+- **Code blocks** are statements that are contained with curly brackets. Each code block in the example above only contain one statment, the time. Code blocks are used frequently to contain multiple statements. Also, this makes it much easier to read your own code.
+- You can write comments in your code to help better understand what the code is supposed to do.
+
+ - ** Multi-Line comments** - These will encompass more than one line. Open with /*, write your text, then close with */.
+- ** Single-Line comments** - Anything that you type past the // on that particular line will not be processed by the Javascript interpreter. These are used for what this line of code is doing. 
+
+### **Variables**
+
+- Variables are places where pieces of data can be stored temporarily from a script. 
+- Once you leave a page, the data will be dropped from the browser memory. 
+- The name, variable, is a good label for this idea since the data can change every time you visit the page and the script runs. 
+- The variable can be computed or calculated in the interpreter using the data that is temporarily stored in the var. 
 
 [Back to Homepage](README.md)

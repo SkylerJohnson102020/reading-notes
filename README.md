@@ -30,3 +30,7 @@ For more about me, vist my [GitHub Portfolio](https://github.com/SkylerJohnson10
 [Reading Class 6A](read06a.md)
 
 [Reading Class 6B](read06b.md)
+
+[Reading Class 7](read07.md)
+
+[Reading Class 8](read08.md)

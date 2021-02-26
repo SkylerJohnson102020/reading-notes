@@ -23,24 +23,72 @@ _ **Program** steps for a computer brower to take
     - Flowcharts help visually show us how the script moves from one step to the next.
 
 ### Expressions
-1.
-2.
 
-pg 75 operators
-assignment operators
-comparison operators
+There are generally two types of expressions
+1. The first type is just the expression will assign a value to the variable. So:
 
-pg 76 arithmetic operators
+        -var color = 'blue';
+        the value of color is blue
 
-pg 78 stringoperator
-concatenation
+2. The second type uses two of more values, combines them, and returns one value. So:
+    
+        -var area = 2 * 6;
+        The value of our area is now 12
+
+
+### Operators
+Operators are what expressions rely upon, they allow us to comnbine one to many values and create one value.
+
+- **Assignment operators** the variable is assigned a value
+
+        -color = 'blue';
+        value of color is blue
+
+- **Arithmetic Operators** calculcate simply math
+
+        -area = 2 * 6;
+        value of area is 12
+
+Below is a list of operators:
+
+        - + - adds a value to another value 
+        - - - subracts a value from another value 
+        - / - this will divide two values
+        - * - multiples two values
+        - ++ - increment, adds only one to current number. EX: i = 5, i++, the result is 11
+        - -- - decrement, subtracts only one from current number. EX: i = 5, i--, result is 4
+        - % - modulus, divides 2 values then returns what is left. 16 % 3, result is 1
+
+
+- **String operators** Merge two strings
+
+        greeting = 'Hello' + 'Skyler';
+        value of greeting is Hello Skyler
+
+- **Comparison operators** Merge two values and then return a true or false
+
+        -buy = 5 > 10;
+        false, value of by is false
+
+- **Logical Operators** Merge expressions and will return either true or false
+
+        -buy = (10 > 5) && (3 < 6);
+        true, value of buy is true
+
+- **Concatenation** - this is where we take two strings and merge them into one string. 
+
+        let firstName = 'Skyler';
+        let lastName = 'Johnson';
+        let fullName = firstName + lastName;
 
 **Functions**
-pg 88 definition
+Functions allow you to merge a collection or series of statements to perform a task. Functions make code reusable, the help avoid repeat code, allow us to define the code once then run it whenever we need it, and it allows your code to appear a lot cleaner. 
+
+**Declaring** a function comes first. Declaring a function and **Invoking or, more commonly, Calling,** a function have to happen separately. Functions are invoked or called **by using ()**.
 
 **Calling the Function**
 
-- This is when you ask the function to perform it's designated task.
+- This is when you ask the function to perform it's designated task. 
 
 **Parameters** 
 
@@ -52,7 +100,7 @@ pg 88 definition
 
 #### A function holds a value, or information, and is only used when you are ready. Functions gather and hold information, then you have to **CALL** the function on the last line of the script. This will allow you to use the data the function gathered.
 
-        function sayHello() {
+        function sayHello(){
             document.write('Hello');
         }
 
@@ -74,8 +122,17 @@ pg 91 diagram
 
 ### Arguments
 
-- Arguments are
+-**Arguments** are the values (parameters) held inside the the () of a function name. They can be presented as variables or values.
 
-- Getting a single value out of a function
+1. As a Value. (Ex below, 5 is width, 6 is height.)
+            
+            -getArea(5, 6); 
+
+2. As a Variable. 
+
+        wallWidth = 11;
+        wallHeight = 17;
+        getArea(wallWidth, wallHeight);
+
 
 [Back to Homepage](README.md)

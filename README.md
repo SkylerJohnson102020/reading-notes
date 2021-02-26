@@ -27,7 +27,7 @@ For more about me, vist my [GitHub Portfolio](https://github.com/SkylerJohnson10
 
 [Reading Class 5](read05.md)
 
-[Reading Class 6A](read06a.md)
+[Reading Class 6A](read06A.md)
 
 [Reading Class 6B](read06b.md)
 

@@ -94,7 +94,7 @@ The logical not flips our expression state to the opposite.
 SO;
 
         let i;
-        for (i = 0; i < 10; i++){
+        for (i = 0; i < 5; i++){
                 "code"
         }
 

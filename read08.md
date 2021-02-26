@@ -29,8 +29,8 @@ This compares one value to what the expectation is, this results in a Boolean; t
 
 - < - "less than' - Will determine if number on left is is less than number on right.
 
-        - 16 > 5 returns false
-        - 16 > 24 returns true
+        - 16 < 5 returns false
+        - 16 < 24 returns true
 
 - >= - "greater than or equal to" - Will determine if number on left is greater than or equal to number on right. 
 

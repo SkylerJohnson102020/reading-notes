@@ -9,15 +9,20 @@ _ **Program** steps for a computer brower to take
 
 1. **Define the Goal**
 
+- What task to you want to achieve? Think of this as something you are giving to the computer to solve. 
+
 2. **Design the Script**
+
+- You need to design a series of steps that the computer will follow in order to find a solution to the puzzle. Use a flowchart to help visualize this.
 
 3. **Code Each Step**
 
-flowcharts page 23
+- Write the steps in a language the computer will understand. In this case, use Javascript.
 
-explain page 18-19
+**FLowcharts**
+    - Flowcharts help visually show us how the script moves from one step to the next.
 
-pg 74 expressions
+### Expressions
 1.
 2.
 

@@ -1,4 +1,10 @@
-# Welcome to Skyler Johnson's new GitHub Page!
+# Welcome to Skyler Johnson's Reading Notes
+
+### Table of Contents
+[code102 Reading Notes](code102.md)
+
+[code201 Reading Notes](code201Table.md)
+
 
 ## About Me
 My name is **Skyler Johnson**, and at 37 years of age, I decided due to the COVID-19 pandemic to take a new path toward programming. This was a long and difficult decision to make, but ultimately what made this the right choice was my family and how heavily the pandemic has had an impact on my current field. For the last 20 years, I have pursued a career in music playing in several symphony orchestras and teaching at multiple universites. Currently, I am the bass trombonist of the Spokane Symphony Orchestra and faculty at Whitworth University. I am living in Spokane with my wife, Heather, and my 4 month old son, Jonah. Programming is very new to me but I am excited for a new beginning. I wanted to find a path that will allow me to apply my problem solving skills I developed through my training as a musician, and I believe programming is that path.
@@ -17,20 +23,3 @@ In his own words:
 > _“As time passes, I realize that I must keep doing it, so that I can **KEEP** doing it!”_
 
 For more about me, vist my [GitHub Portfolio](https://github.com/SkylerJohnson102020)
-
-### Table of Contents
-[Reading Class 2](read02.md)
-
-[Reading Class 3](read03.md)
-
-[Reading Class 4](read04.md)
-
-[Reading Class 5](read05.md)
-
-[Reading Class 6A](read06A.md)
-
-[Reading Class 6B](read06b.md)
-
-[Reading Class 7](read07.md)
-
-[Reading Class 8](read08.md)

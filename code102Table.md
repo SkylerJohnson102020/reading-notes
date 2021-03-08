@@ -34,3 +34,5 @@ For more about me, vist my [GitHub Portfolio](https://github.com/SkylerJohnson10
 [Reading Class 7](read07.md)
 
 [Reading Class 8](read08.md)
+
+[Back to Homepage](README.md)

@@ -41,4 +41,6 @@ As I stated in my notes for code 102:
 > Javascript is our third layer in a webpage where we can change the behaviour of the page, adding interactivity. Javascript enhances the user experience of the website and/or the experience of interacting with the website.
 
 
+[Back to code201 Table of Contents](code201Table.md)
 
+[Back to Homepage](README.md)

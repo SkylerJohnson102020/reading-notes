@@ -1,7 +1,7 @@
 # Welcome to Skyler Johnson's Reading Notes
 
 ### Table of Contents
-[code102 Reading Notes](code102.md)
+[code102 Reading Notes](code102Table.md)
 
 [code201 Reading Notes](code201Table.md)
 

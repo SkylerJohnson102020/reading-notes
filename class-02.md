@@ -236,18 +236,22 @@ In the js example above, you will see an example of a varied greeting. The lines
 
 # Chapter 4 in Duckett JS/JQuery pg. 145-162
 
+## Conditions
 Scripts will act differently based upon the input the user puts in and how the user uses the webpage. Evaluations allow the interpreter to analyze and to see if they match intended results. Decisions using the data collected from evaluations, you can then decide where the scripot should go. Loops are good for when you need to repeat steps either as many times as necessary or at a constant. The creation of a flow chart can help you to visualize what the script will do.
 
 **Two steps to a decision**
 - Expression is analyzed, value is returned.
 - Condition statements say what to do bext
 
-In the example below, the (score > 90) is the condition.
+In the example below, the (score > 90) is the condition. Example of a conditional statement.
 
-        if (score > 75)
+        if (score > 75) {
+            document.write('Pass');
+        } else {
+            document.write('Fail");
+        }
 
-**Conditions** 
-
+A **coniditonal statement** will run until one of the conditions is met. You use "else if" or "else" to indicate what to do next. 
 
 
 ## Comparison Operators
@@ -280,7 +284,7 @@ This compares one value to what the expectation is, this results in a Boolean; t
         - 16 > 5 returns true
         - 16 > 24 returns false
 
-- < - "less than' - Will determine if number on left is is less than number on right.
+- < - "less than" - Will determine if number on left is is less than number on right.
 
         - 16 < 5 returns false
         - 16 < 24 returns true
@@ -291,11 +295,20 @@ This compares one value to what the expectation is, this results in a Boolean; t
         16 >= 24 returns false
         16 >= 16 returns true
 
-- <= - "less than of equal to" - Will determin if number on left is less than or equal to number on right.
+- <= - "less than of equal to" - Will determine if number on left is less than or equal to number on right.
 
         16 <= 5 returns false
         16 <= 24 returns true
         16 <= 16 returns true
+
+**Use of expression with comparison operator** 
+
+Below is an example showing how a comparison operator is built:
+
+            (test score >= lowest possible passing score)
+            
+The "test score" and "lowest possible passing score" are what are known as **operands.** An operand can be either a value or a variable. In this case, "test score" is going to vary based on how many grades run through the script, this will be a variable. Whereas the operand "lowest possible passing score" will be be a fixed number, so this will be a value.  The example above resolves into one value, true or false. This is an example of an expression. 
+
 
 # Logical Operators
 
@@ -304,13 +317,13 @@ This compares one value to what the expectation is, this results in a Boolean; t
         ((3 < 7) && (4 >=1))
         return is true
 
-If both of our expression come back as true, then the expression returns to us as true. If there is just one of the expressions above return as false, then it will return as false. Both must be true.
+If both of our expression come back as true, then the expression returns to us as true. If there is just one of the expressions above that returns as false, then it will return as false. Both must be true.
 
-- || - Locical OR - test at least on of the conditions below. 
+- || - Locical OR - tests at least one of the conditions below. 
 
         ((3 < 7) || (4 < 1))
 
-If only one of the expressions above come back, return, as true, then the expression returns true. If both of the expressions return as false, then the expression will be false. At least one has to be true, both have to be false in order for it to be false.
+If only one of the expressions above come back (return) as true, then the expression returns true. If both of the expressions return as false, then the expression will be false. At least one has to be true, both have to be false in order for it to be false.
 
 - ! - Logical Not - This inverts a the value of single Boolean. 
 
@@ -319,41 +332,48 @@ If only one of the expressions above come back, return, as true, then the expres
 
 The logical not flips our expression state to the opposite. 
 
+**if statements**
 
-# Loops
-    
-- for - running code for a specific number of times, like an incorrect password. This one is a counter, meaning it will count your incorrect answers. This will be told by the condition how many times the loop should run. 
+Below is an example of an if statement. This type of statement will check into a condition (test score >= 75). If this condition returns true, then any of the statements (passed()) that follow in the code block will run. So:
 
-- while - a loop where you have no idea how many times it should run. This loop will continue until the condition is met and returns true. 
-
-- do while - the do while loop, closely resembling the while loop, has one difference. it will run statements at a minimum of at least once even if it returncomes backs false.
-
-# Loop Counters
-
-**Statements within the for loop**
-
-- Initialization - we set our variable to 0. Our variable is called i. and it behave as our counter. This is our starting position. Starts at 0.
-
-        ver i = 0;
-
-- Condition - the for loop will run until it hits outour specified number. If we start at 0, the loop will run 5 times, 0, 1, 2 ,3 ,4 ,5, undefined.
-
-        i < 5;
-
-- Update - we add one to our counter after each time the loop runs.
-
-        i++
-
-SO;
-
-        let i;
-        for (i = 0; i < 5; i++){
-                "code"
+        if (test score >= 75) {
+            passed();
         }
 
+Below is an example of an if else statement. This one will also examine a condition. If it returns true, then it will run the first statement, or code block. If it returns as false, the next code block will be run. The (test score >= 75) is the condition.
+
+        if (test score >= 75) {
+            passed();
+        }
+        else {
+            not passed();
+        }
+
+## Switch Statements
+
+The switch statement will begin with a variable that is called _switch value_. In the example below, each possibility is indicating what could possibly the value for this particular variable including the code that will run if the condition is met. 
+
+        switch (stage) {
+            possibility 'One':
+              title = 'Stage 1';
+              break;
+
+            possibility 'Two';
+              title = 'Stage 2'
+              break;
+
+            possibility 'Three';
+              title = 'Stage 3'
+              break;
+
+            default:
+              title = 'Testing'
+              break;
+        }
+
+An if statement will run the entire code and then determine which condition is met. The switch statement will run through and will stop when it reaches 'break' once it finds the match. Switch statements generally run faster than if statements. 
 
 [Back to Homepage](README.md)
-
 
 [Back to code 201 Table](code201Table.md)
 

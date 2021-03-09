@@ -164,6 +164,74 @@ You can select a class in your CSS document by using the class selctor. This is 
 
 # Chapter 2 in Duckett JS/JQuery pg. 53-84
 
+### Statements
+
+        let today = new Date();
+        let hourNow = today.getHours();
+        let greeting;
+
+        if (hourNow > 18) {
+          greetng = 'Good Evening World!';
+        } else if (hourNow > 12) {
+          greeting = 'Good Afternoon World!';
+        } else if (hourNow > 0) {
+          greeting = 'Good Morning World!';
+        } else {
+          greeting = 'Welcome!';
+        }
+
+        document.write('<hjs>' + greeting + '</hjs>');
+
+In the js example above, you will see an example of a varied greeting. The lines beginning with let, greeting, and document are statements. The curly brackets indicate the beginning and end of a code block. The else if lines determines what code will run in this order. 
+
+**Statements** are one to a line, you must have only one statement per line and the statents are, in a nutshell, instructions.
+
+- Each one is a single instruction that the computer will follow. 
+- Each one begins on it's own line and will end with a ;
+- The ; is important at the end of your code since it will tell the js interpreter that the instruction is complete telling it to go onto the next instruction or step.
+- **Code blocks** are statements that are contained with curly brackets. Each code block in the example above only contain one statment, the time. Code blocks are used frequently to contain multiple statements. Also, this makes it much easier to read your own code.
+- You can write comments in your code to help better understand what the code is supposed to do.
+
+**Multi-Line comments** - These will encompass more than one line. Open with /*, write your text, then close with */.
+
+**Single-Line comments** - Anything that you type past the // on that particular line will not be processed by the Javascript interpreter. These are used for what this line of code is doing. 
+
+### **Variables**
+
+- Variables are places where pieces of data can be stored temporarily from a script. 
+- Once you leave a page, the data will be dropped from the browser memory. 
+- The name, variable, is a good label for this idea since the data can change every time you visit the page and the script runs. 
+- The variable can be computed or calculated in the interpreter using the data that is temporarily stored in the variable.
+
+            var quantity = 3;
+
+- **In the example above**, we have the keyword, var. (This keyword is used to create a particular variable.) The Javascript interpreter will understand that this keyword will create a variable. 
+    - **var is the keyword**
+
+    The variable name is, in this case, quantity. This is also known as an identifier. 
+        
+    - **The variable name is quantity.**
+
+    _Note: If there is more than one word in your variable name, or identifier, you have to use what is called camelCase where any additional word is started with a capital. So, hourNow, camelCase, etc._
+
+- The equals sign is the assignment operator. This example assigns a value to the variable. The 3 above is the variable value. If there is no value indicated, this variable is undefined.
+
+### JS identifies the differences between strings, numbers, and Booleans, Booleans being true or false values.
+
+ - **Numeric Data** handles numbers. You can only use characters 0-9. No commas are written in your numbers. You can also have negative numbers. Three quarters will be conveyed as 0.75
+
+ - **String data** handles letters and other characters. These can be used for any type of text. Use matching ' or " on either side of your text. 
+
+ - **Booleans** are true of false, on or off. For example, if an item is in stock or not, this is a true or false, yes or no value. 
+
+ ## Six Rules for Naming Variables
+
+1. The name needs to start with a letter, $, or _. Cannot start with a number.
+2. The name of the variable can contain letters, $, or _. You cannot use a - or . in the name.
+3. You are not allowed to use two things: reserved and keywords. See above for keyword definition. 
+4. Variables are case sensitive. So, starting the same word uppercase and lowercase are two different variable names. It's not good methodically to use the same word for two different variables. 
+5. Use like variable names for the information you are storing. 
+6. Make sure you use camelCase when typing more than one word. 
 
 
 # Chapter 4 in Duckett JS/JQuery pg. 145-162

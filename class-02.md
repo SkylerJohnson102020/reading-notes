@@ -56,6 +56,44 @@
         --------------------------
         Winter is for skiing!
 
+### Semantic Markup
+
+- The **Strong** element can be used to indicate that this content is very important. 
+
+        <p><strong>Watch Out!</strong> There might be alligators!</p>
+
+        If you see an alligator, keep your distant. <strong>They will attack if provoked!</strong>
+
+     **Watch Out!** There might be alligators!
+
+    If you see an alligator, keep your distant. **They will attack if provoked!**
+
+- The em element can be used to show emphasis on specific words to change the emphasis of a sentence by using italics.
+
+        <p>I <em>don't</em> want a drink.<p>
+        <p>I don't <em>want</em> a drink.</p>
+        <p>I don't want a <em>drink</em>.
+
+    I _don't_ want a drink.
+
+    I don't _want_ a drink.
+
+    I don't want a _drink_.
+
+- **Quotations**
+
+- Blockquotes. The blockquote element can be used in a situation where you have a quote that will take up a large space or an entire paragraph. This one will generally be indented by the browser.
+
+- The q tag can be used to mark shorter quotes. You can use this one for more inline quotes. Both forms of quotations can cite a url. 
+
+        <blockquote cite="url here">
+        <p>Insert your quote here</p>
+
+        <p>As Cookie Monster always says, <q>"C is for Cookie, that's good enough for me!</q></p>
+
+
+
+
 
 
 

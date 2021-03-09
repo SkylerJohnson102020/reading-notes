@@ -91,7 +91,43 @@
 
         <p>As Cookie Monster always says, <q>"C is for Cookie, that's good enough for me!</q></p>
 
+- The abbreviation tag is used when you use and abbreviation or an acronym. 
 
+        <p><abbr title="National Basketball Association">NBA</abbr><p>
+
+        NBA
+
+- The cite tag is used when you want to reference a book, movie, paper, newspaper, or anything else in this category.
+
+        <p><cite>Book title goes here</cite> by xyz author has been published by abc publishing.</p>
+        The text inside the cite tag will be in italics.
+
+- The dfn tag defines a term that appears first in a text. Some browsers do not change the look of the text. 
+
+- The address element is used to contain contact information for the author of a particular page.
+
+        <address>
+        <p><a href="mailto:BobLoblaw@blah.com">BobLoblaw@blah.com</a></p>
+        <p>555 Phony Lane
+        </address>
+
+    _BobLoblaw@blah.com_
+
+    555 Phony Lane
+
+- The ins element shows text that has been added, the del element shows text that has been deleted.
+
+        <p>This text was <ins>inserted</ins> while this text was <del>deleted</del>.</p>
+        
+        The ins will underline the word, the del will cross it off.
+
+- The s element is shows something that is wrong, inaccurate, or has changed. 
+
+        <p>Cookie Monster Puppet</p>
+        <p><s>Price was $5,500</s></p>
+        <p>Now it is $5</p>
+
+        The second line will be crossed off.
 
 
 

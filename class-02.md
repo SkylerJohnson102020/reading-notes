@@ -1,6 +1,6 @@
 # Read 02 Notes
 
-## Chapter 2 in Duckett HTML/CSS pg. 40-61
+# Chapter 2 in Duckett HTML/CSS pg. 40-61
 - Headings. h1 being the largest, h6 being the smallest.
 
              <h1> through <h6>
@@ -134,15 +134,39 @@
 
 
 
-## Chapter 10 in Duckett HTML/CSS pg. 226-245
+# Chapter 10 in Duckett HTML/CSS pg. 226-245
+
+CSS applies rules to your html elements by using a selector (ex: p, h1, etc) followed by a declaration (box) using the {} brackets. Selectors indicate what element you want to stylize and the declaration is how the element should be styled. A declaration is made up of two parts, a property (color:, font-family:, etc.) and values (color: yellow;, font-family: Arial;). You can use multiple elements in a CSS rule, so:
+
+            h1, h2, h3 {
+                font-family: Arial;
+                color: yellow;
+                }
+
+The link element can be used in html to tell your browser where to look for the CSS file you are using to style the page. 
+
+        Place the first line of code below in your head element.
+        <link href="style.css" type"text/css" rel="stylesheet">
+
+        - href - specifies path to CSS file
+        - type - the type of document being linked to.
+        - rel - indicates the relationship between the file you are linking to and the html.
+
+You can also include CSS styling in your HTML code by using the style element or tag. You can place CSS rules within this tag directly in your HTML code. This tag should sit inside the head tag or element.
+
+You can select a class in your CSS document by using the class selctor. This is indicated by a . before the selector.
+       
+        - * is a universal selector and applies to all elements
+
+**You can use one CSS sheet to apply to a website with multiple pages.**
 
 
 
-## Chapter 2 in Duckett JS/JQuery pg. 53-84
+# Chapter 2 in Duckett JS/JQuery pg. 53-84
 
 
 
-## Chapter 4 in Duckett JS/JQuery pg. 145-162
+# Chapter 4 in Duckett JS/JQuery pg. 145-162
 
 
 

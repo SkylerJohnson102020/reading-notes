@@ -6,4 +6,6 @@
 
 [Reading 03](class-03.md)
 
+[Reading 04](class-04.md)
+
 [Back to Homepage](README.md)

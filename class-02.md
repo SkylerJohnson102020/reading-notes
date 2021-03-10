@@ -373,8 +373,6 @@ The switch statement will begin with a variable that is called _switch value_. I
 
 An if statement will run the entire code and then determine which condition is met. The switch statement will run through and will stop when it reaches 'break' once it finds the match. Switch statements generally run faster than if statements. 
 
-[Back to Homepage](README.md)
-
 [Back to code 201 Table](code201Table.md)
 
 [Back to Homepage](README.md)

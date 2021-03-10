@@ -1,4 +1,4 @@
-# Read 03 Notes Lists, Boxes(Plus Table Row Element), Shorthand CSS, 
+# Read 03 Notes Lists, Boxes(Plus Table Row Element), Shorthand CSS, Arrays, Decisions, and Loops.
 
 ## Chapter 3 pg 62-73 Lists
 
@@ -195,6 +195,16 @@ See [code102 Reading Notes](code102Table.md)
             /* or */
             margin: 25px 15px 25px 15px;
         }
+
+
+
+
+
+
+# Arrays
+
+
+
 
 
 

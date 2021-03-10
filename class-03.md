@@ -293,6 +293,90 @@ Arrays will store many values rather than just a single. Consider using this whe
     colors[3] = 'darkcyan';
 
 
+**if statements**
+
+Below is an example of an if statement. This type of statement will check into a condition (test score >= 75). If this condition returns true, then any of the statements (passed()) that follow in the code block will run. So:
+
+        if (test score >= 75) {
+            passed();
+        }
+
+Below is an example of an if else statement. This one will also examine a condition. If it returns true, then it will run the first statement, or code block. If it returns as false, the next code block will be run. The (test score >= 75) is the condition.
+
+        if (test score >= 75) {
+            passed();
+        }
+        else {
+            not passed();
+        }
+
+## Switch Statements
+
+The switch statement will begin with a variable that is called _switch value_. In the example below, each possibility is indicating what could possibly the value for this particular variable including the code that will run if the condition is met. 
+
+        switch (stage) {
+            possibility 'One':
+              title = 'Stage 1';
+              break;
+
+            possibility 'Two';
+              title = 'Stage 2'
+              break;
+
+            possibility 'Three';
+              title = 'Stage 3'
+              break;
+
+            default:
+              title = 'Testing'
+              break;
+        }
+
+An if statement will run the entire code and then determine which condition is met. The switch statement will run through and will stop when it reaches 'break' once it finds the match. Switch statements generally run faster than if statements. 
+
+**Type coercion** the conversion of data types to meet complete a particular operation. 
+
+**Weak typing** JS uses this since the type of data can change.
+
+**Strong =typing** others require definition of what data type the variable is. 
+
+**Falsy values** - values treated as false.
+
+**Truthy** - values treated as true. (pg. 167)
+
+
+# Loops
+    
+- for - running code for a specific number of times, like an incorrect password. This one is a counter, meaning it will count your incorrect answers. This will be told by the condition how many times the loop should run. 
+
+- while - a loop where you have no idea how many times it should run. This loop will continue until the condition is met and returns true. 
+
+- do while - the do while loop, closely resembling the while loop, has one difference. it will run statements at a minimum of at least once even if it returncomes backs false.
+
+# Loop Counters
+
+**Statements within the for loop**
+
+- Initialization - we set our variable to 0. Our variable is called i. and it behave as our counter. This is our starting position. Starts at 0.
+
+        ver i = 0;
+
+- Condition - the for loop will run until it hits outour specified number. If we start at 0, the loop will run 5 times, 0, 1, 2 ,3 ,4 ,5, undefined.
+
+        i < 5;
+
+- Update - we add one to our counter after each time the loop runs.
+
+        i++
+
+SO;
+
+        let i;
+        for (i = 0; i < 5; i++){
+                "code"
+        }
+
+
 [Back to code 201 Table](code201Table.md)
 
 [Back to Homepage](README.md)

@@ -334,15 +334,17 @@ The switch statement will begin with a variable that is called _switch value_. I
 
 An if statement will run the entire code and then determine which condition is met. The switch statement will run through and will stop when it reaches 'break' once it finds the match. Switch statements generally run faster than if statements. 
 
-**Type coercion** the conversion of data types to meet complete a particular operation. 
+**Type coercion** the conversion of data types to meet complete a particular operation. Example it is better to use === or !== since these two operators will check if there is a strict match. This gives less unintended values.
 
 **Weak typing** JS uses this since the type of data can change.
 
 **Strong =typing** others require definition of what data type the variable is. 
 
-**Falsy values** - values treated as false.
+**Falsy values** - values treated as false. Any falsy value can be treated as 0. 
 
-**Truthy** - values treated as true. (pg. 167)
+**Truthy** - values treated as true. (pg. 167) Truthy can also be 1. Pretty much everything comes out as a truthy value. Having an object of array in your code is considered truthy.
+
+**Short Circuit** values stop running through the code once a result has been reached. If it is finding a truthy and you have three values 0, 1, 2, it will go through 0 since it's falsy and stop, short-circuit, on 1. You typically want to order your code considering this. For the logical OR operator, put code that will return true or most likely will first. In logical AND, put the false returns first. 
 
 
 # Loops

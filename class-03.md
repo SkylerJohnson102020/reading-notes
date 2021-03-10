@@ -196,16 +196,101 @@ See [code102 Reading Notes](code102Table.md)
             margin: 25px 15px 25px 15px;
         }
 
+**Centering**
 
+Centering a box on a page is simple. Just set the left and right margin to auto. You also need to set a width otherwise the box will span across the entire page.
 
+        <p> {
+            left-margin: auto;
+            right-margin: auto;
+            width: 300px;
+            padding:
+            border:
+        } 
+            
+You can also use **text-align** for older browsers. Use this and set it to centered. This property will impact child elements as well as the parent so make sure you use a class or id tag in your html. 
 
+**IE6 Model** (Internet Explorer 6) You set the width size of a box, generally you add padding and margin. **However**, IE6 is funky and will include the padding and margin in the width of a box. 
+
+**Display: Inline and Block** You can use the display property to turn a list or some other inline element into a block element. You can also go block to inline. In addition, you can hide something. 
+
+- Inline - turns a block element into inline (not generally used to create block elements.)
+- Block - turns inline to block
+- none - hides element from page
+
+     <ul>
+        <li>Turkey</li>
+        <li>Stuffing</li>
+        <li class="extra">Mashed Potatoes</li>
+        <li>Gravy</li>
+    </ul>   
+
+    li {
+        display: inline;
+        margin-right: 5px;
+    }     
+    .extra {
+        display: none
+        visibility:
+    }
+
+    Turkey  Stuffing  Gravy
+
+**Hiding Elements: Visibility, hidden or visible**
+
+    - The hidden property will hide element.
+    - visible shows the element. 
+
+If the visibility property is set to hidden, a blank space form in it's stead. If you want it visible, set the property to none.
+
+**Border-Image** property does exactly that, applies an image to the border. This property is done in 3 steps.
+    
+    1. set a url
+    2. where to cut image
+    3. straight edges are done with these possible values:
+        repeat - which does exactly that, repeat it.
+        round - this will scale the image so tiles will meet properly.
+        stretch - exactly that, stretches the image.
+
+        p {
+            - moz-border-image: url("images/dots.gif") 8 8 8 8 round;
+            - webkit-border-image: url("images/dots.gif") 8 8 8 8 round;
+            border-image: url(images/dots.gif") 8 8 8 8 round; 
+        }
+
+**box-shadow** does exactly that, set a shadow that drops back from a box. It must include the **Horizontal and Vertical** offset properties. You also add color. Horizontal, the negative value below places the shadow to the left of box. Vertical, negatives will put shadow at top of box. **Blur distance** will blur shadow, if not present, the shadow will sppear solid. **Spread of Shadow** when applied, a value in the positive will expand, negative will contract on all four sides. 
+
+        p {
+            - moz-box-shadow: -3px -3px red;
+            - webkit-box-shadow: -3px -3px red;
+            box-shadow: -3px -3px red; 
+        }
+
+**Border-radius** will round the corners on a box use border-top, -left, -bopttom-, etc. you can set one border-radius to a pixel value. 
+
+**Elliptial Shapes** border-radius for custom shapes. This is a complex application, so refer to **page 322 in the Duckett**. For a circle as a quick example, you set the vertical and horizontal values the same. 
 
 
 # Arrays
 
+Arrays will store many values rather than just a single. Consider using this when you are using a list or collection of values that are related. You can store anything and they don't need to be the same. So, numbers, strings, and booleans can be mixed together. This example below is called array literal, all in one line. You can also do array constructor, in the second example. The second one creates the new keyword and the Array(). Values are then dropped into the (). 
 
+        let colors;
+        colors = ['blue', 'brown', 'yellow', 'custom'];
 
+        let colors = new Array('blue', 
+                  'brown', 
+                  'yellow', 
+                  'custom');
 
+**Values in the Arrays** Applying number, or **index**, to the values, you have to remember that **we start at zero.** So in the second exapmle, blue is 0, brown is 1, yellow is 2, and 3 is custom. It doesn't matter if you use the array literal or constructor methods. 
+
+    let colors = new Array('blue', 
+                  'brown', 
+                  'yellow', 
+                  'custom');
+
+    colors[3] = 'darkcyan';
 
 
 [Back to code 201 Table](code201Table.md)

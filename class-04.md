@@ -174,7 +174,19 @@ pg 91 diagram
 
         }
 
-**Immediately Invoked Function Expressions** or IIFE "iffy". These have no name, but they run when the interpreter hits them. If you place this unnamed function where you normally place the value of a variable, that particular variable will hold the value that has been returned by the function. This method is good for when a function only needs to be called a single time.  
+**Immediately Invoked Function Expressions** or IIFE "iffy". These have no name, but they run when the interpreter hits them. If you place this unnamed function where you normally place the value of a variable, that particular variable will hold the value that has been returned by the function. This method is good for when a function only needs to be called a single time. This will help prevent potential conflicts in your code.
+
+**Variable Scope** 
+
+- Local Variables are variables placed inside of the functions code block and can only be used by that particular function. The interpreter creates the variable and then immediately forgets it once the function task is complete. Pop-up windows? login info?
+
+- Global variables are variables that can be used anywhere is your js script. These variables will be stored in the web browser as long as the particular web page stays loaded. Once the webpage is closed, it will forget any and all information. Wide use of these can create conflicting variables, so use these wisely and/or use locals. Globals use more memory than locals. 
+
+An abundance of globals will cause your page to run slower. Locals will help it run faster. Variables outside of a function, global, will conflict if they have the same name.
+
+
+
+
 
 
 

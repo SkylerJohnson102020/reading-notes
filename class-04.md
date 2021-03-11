@@ -104,6 +104,64 @@ Separate your boxes in css using border, margin, padding, background colors, etc
 
 
 
+
+**Functions**
+Functions allow you to merge a collection or series of statements to perform a task. Functions make code reusable, they help avoid repeat code, allow us to define the code once then run it whenever we need it, and it allows your code to appear a lot cleaner. 
+
+**Declaring** a function comes first. Declaring a function and **Invoking or, more commonly, Calling,** a function have to happen separately. Functions are invoked or called **by using ()**.
+
+**Calling the Function**
+
+- This is when you ask the function to perform it's designated task. 
+
+**Parameters** 
+
+- These are individual pieces of information the function needs in order to complete a task. Some functions require more than one piece of information, or parameter, to complete the task. The parameter inside a function behave like variable names.
+
+**Return Value**
+
+- When you expect the function to give you an answer.
+
+#### A function holds a value, or information, and is only used when you are ready. Functions gather and hold information, then you have to **CALL** the function on the last line of the script. This will allow you to use the data the function gathered.
+
+        function sayHello(){
+            document.write('Hello');
+        }
+
+**In the example above:**
+
+1. The function is "declared" by typing in the function keyword. 
+2. You then give the function a name, or identifier. In this case, sayHello()
+3. The curly brackets contain your statement. This will perform your task. This will write it on your webpage.
+4. Using the function name in your html code is how you are able to call the function.
+
+### The steps of calling a function.
+pg 91 diagram
+
+1. Function stores the steps of a task.
+2. You then call the function when you require the script to execute your task. 
+3. The function will then perform the code written inside the curly brackets and put it on the website.
+4. When it completes the task, the code will continue to run from where you called it.
+
+**Sometimes your functions can seemingly be out of order and they might not work. (Example, you want the userName before the userName was declared.) This doesn't matter if the functions are all in the same script since the computer will run through the entire script before executing the statements.**
+
+### Arguments
+
+-**Arguments** are the values (parameters) held inside the the () of a function name. They can be presented as variables or values.
+
+1. As a Value. (Ex below, 5 is width, 6 is height.)
+            
+            -getArea(5, 6); 
+
+2. As a Variable. 
+
+        doorWidth = 11;
+        doorHeight = 17;
+        getArea(doorWidth, doorHeight);
+
+
+
+
 [Back to code 201 Table](code201Table.md)
 
 [Back to Homepage](README.md)

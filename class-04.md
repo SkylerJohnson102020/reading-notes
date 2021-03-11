@@ -184,9 +184,20 @@ pg 91 diagram
 
 An abundance of globals will cause your page to run slower. Locals will help it run faster. Variables outside of a function, global, will conflict if they have the same name.
 
+# Reasons for Pair Programming
 
+- Driver - the person using the keyboard and writing the code. Working with the mechanics.
 
+-Navigator - Not using the computer, but talks out the code to help guid the driver.
 
+Working with another person or teams helps with:
+
+1. Greater efficiency
+2. Engaged Collaboration
+3. Learning from fellow students
+4. Social skills
+5. Job interview readiness
+6. Work environment readiness
 
 
 

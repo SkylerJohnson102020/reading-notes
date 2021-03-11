@@ -159,6 +159,22 @@ pg 91 diagram
         doorHeight = 17;
         getArea(doorWidth, doorHeight);
 
+**Review page 95 it JS Duckett.**
+
+
+**Function Declaration** This creates a function and can be called later. The interpreter looks for variables and functions before it does anything else.
+
+        getArea(width, height) {
+
+        }
+
+**Function expression**  The  intrepreter will interpret a function placed where it expects to see an expression as an expression. An example of this would be stored in a variable.In this format, the intpreter will not find this function before it runs all the lines of code. This is a big difference between this and function declaration.
+
+        let area = getArea(width, height) {
+
+        }
+
+**Immediately Invoked Function Expressions** or IIFE "iffy". These have no name, but they run when the interpreter hits them. If you place this unnamed function where you normally place the value of a variable, that particular variable will hold the value that has been returned by the function. This method is good for when a function only needs to be called a single time.  
 
 
 

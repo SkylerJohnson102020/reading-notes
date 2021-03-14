@@ -20,7 +20,7 @@ You can select a class in your CSS document by using the class selctor. THis is 
 **You can use one CSS sheet to apply to a website with multiple pages.**
 
 
-## Chapter 10 Color
+## Chapter 11 Color
 - You can use the RGB rules using hex codes #ee3e80, rgb(100,100,90), color names
 - There are 147 named predetermined colors
 - You can adjust colors by changing the hue, saturation (the amount of gray), and brightness (how much black).

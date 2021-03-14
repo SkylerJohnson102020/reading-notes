@@ -140,7 +140,51 @@
             text-shadow: 2px 1.5px 0.5 red;
         }
 
-        
+- **Pseudo-Elements**
+
+- :font-letter - Apply a value to the first letter of an element changing style, color, font, etc.
+
+- :font-line - Same idea, only to the entire first line.
+
+        p:first-letter {
+             font-size: 150%;
+        }
+
+        p:first-line {
+            font-weight: normal;
+        }
+
+- :link - Change the color or style of a clickable link. 
+
+- :visited - Change the color or style of a link that has been clicked.
+
+        a:link {
+            color: yellow;
+        }
+
+        a:visited {
+            color: red;
+        }
+
+- :hover - set styles like a backer color illumination for when the mouse is hovering over text or images. 
+
+- :active - style applied after a button has been clicked.
+
+- :focus - styles applied to elements you can interact with.
+
+### CSS Selectors
+
+- existence - [] - matches an attribute. h1[class] will target any h1 with the class attribute.
+
+- equality - [=] - matches an attricute with a value. h1[class="cat"] targets anything h1 with the cat class.
+
+- space - [~=] - matches att. that has a value appearing in a spaced list of words. h1[class~="cat"] will target any h1 with this class that has the above description. 
+
+- prefix - [^=] - matches att. with value beggining with a certain string. h1[attr^"c"] will target any h1 starting with the letter c. 
+
+- substring - [*=] - matches att. with value with a certain substring. h1[attr*"ca"] will target any h1 that contains ca.
+
+- suffix - [$=] - matches att. with values ending with certain string. h1[attr$"t"] will target any h1 that ends with t.
 
 [code201Table](code201Table.md)
 

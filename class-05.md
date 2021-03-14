@@ -2,7 +2,9 @@
 
 ### Chapter 5 Duckett Images
 
+- Adding images:
 
+        <img src="url or file name" alt="A description of the image that is seen by users if they cannot see the image." title="A descripton of the image that will be seen by the user in the browser when they hover over the image.">
 
 
 

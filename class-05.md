@@ -51,6 +51,31 @@
         </figure>
 
 
+# JPEG vs PNG vs GIF
+ 
+- jpeg for natural scenery, png for images with transperency, text, objects, with high contrast edges, gif for animations.
+
+- compression. compressing a file can save space and time to load it. Two types:
+
+    - lossless - no info lost from compression
+
+    - lossy - loss of info that is lost. quality can be hindered.
+
+- jpeg is lossy, although the compression rate allows for little noticable degrading of the image. Too much can impact the photo. 
+
+- png is lossless and uses the DEFLATE compression method. No info or degradation from this method. These look sharper but are larger files.
+
+- gif is lossless using the LZW compression algorithm. GIF images were favored over png but with the compression of png, gif are mainly used for animations.
+
+- tansperency - allows an image to be seen over another image with varying colors. jpeg doesn;t support this. PNG allows partial transperency using an alpha channel or setting one color background. Partial blends the edges to smooth into the background. gif supports transperency by setting a single color as having some transperency. No partial transperency. 
+
+- jpegs support 16 million colors.Whoa! 
+
+- png8 supports 256 colors and better for logos and simple images. png24 supports 16 million colors and is good for natural scenery.
+
+- gifs have 256 colors. Only format that supports animation. Best choice for ads and banners.
+
+
 # Chapter 11 Color  
 
 - You can use the RGB rules using hex codes #ee3e80, rgb(100,100,90), color names
@@ -185,6 +210,10 @@
 - substring - [*=] - matches att. with value with a certain substring. h1[attr*"ca"] will target any h1 that contains ca.
 
 - suffix - [$=] - matches att. with values ending with certain string. h1[attr$"t"] will target any h1 that ends with t.
+
+
+
+
 
 [code201Table](code201Table.md)
 

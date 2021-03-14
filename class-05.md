@@ -69,7 +69,78 @@
 
 # Chapter 12 Text Duckett
 
+- Serif - extra detail and flags on the letters.
 
+- Sans-serif - letters without this detail
+
+- monospace - every letter has the same exact width. 
+
+- weight - refers to the thiness or thickness of the text.
+
+- style - refers to the font style. 
+
+- stretch - condensing or stretching the text.
+
+- cursive - text with more detail to each letter.
+
+- fantasy - thicker block style letters mostly used for titles.
+
+- font-family - use this in css. you have to have fonts installed on your computer.
+
+- font-face - a downloadable font style that must be permitted.
+
+- service-based font-face - same thing only with a continuous fee.
+
+- siFR - this font will be embeddded in a Flash movie, HTML text is then replaced by JS with this flash version.
+
+- Cufon - This uses JS for SVG or VML version of this text. 
+
+- font-family - the the css property to set a text style.
+
+- font-size - sizing can be donw using px, %, or em. Pixels allow the programmer to control the size exactly. The em sizing is the width of the letter m. This changes the size relative to the size of the parent element. Default size is 16px. You can us pt instead of px for printer friendly options.
+
+- @font-face - allows the user to download the font for viewing onto their computer when they access the website. Make sure you have proper licensing. src - the path of the font (url). Format - what format you're using. Different browsers have their own formats for the different fonts. Websites like fontsquirrel.com can supply different fonts. make sure you have the right format:
+
+        1. eot
+        2. woff
+        3. ttf/otf
+        4. svg
+
+- font-weight - bold. normal is normal weight, bold is bold weight
+
+- font-style - italic. normal displays no italics, italic makes it italic. Oblique is alos an option.
+
+- text-transform - change the case
+
+        h1 {
+            text-transform: lowercase;
+            text-transform: uppercase;
+        }
+
+- text-decoration -none, underline, overline, line-through, blink. Blink makes the text flash on and off.
+
+        h1 {
+            text-decoration: line-through;
+        }
+
+- line-height - vertical space between lines. Measured in ems. This called leading. this will set the height of the whole line of text. 
+
+- letter-spacing, word-spacing - just like it sounds, puts space between each letter or each word. Measured in ems. 
+
+- text-align - Already have used this. Use it to align center, left, or right. Use justify to make the text take up the entire width of a box. 
+
+- vertical-align - Not like it sounds. More of use of how you want text to appear to the side of an image. Use text-top, text-bottom, baseline, sub, super, top, middle, top, or bottom.
+
+- text-indent - indent the first line of text of an element. Use px for this. You can even push text off the window if you want. 
+
+- text-shadow - used to create a drop-shadow in text. There are four values to consider when writing this. First value, length, refers to how for left or right the shadow should go. Second value refers to distance of shadow top or bottom. Third value refers to the amount of blur in the shadow. Fourth value refers to the color of the shadow. So:
+
+        h1 {
+            color: ;
+            text-shadow: 2px 1.5px 0.5 red;
+        }
+
+        
 
 [code201Table](code201Table.md)
 

@@ -83,6 +83,10 @@ The DOM follows the structure of a website using a DOM tree.
 
 - array syntax - is preferred method when searching using selectors. This supplies each item if found with an index number and can be accessed using that number. 
 
+- Searching by CSS selector - querySelector() will select only the first match found and querySelectorAll() will create a nodelist of all of them. Searching my css selectors offers greater flexibilty for searching. 
+
+
+
 
 
 

@@ -85,6 +85,22 @@ The DOM follows the structure of a website using a DOM tree.
 
 - Searching by CSS selector - querySelector() will select only the first match found and querySelectorAll() will create a nodelist of all of them. Searching my css selectors offers greater flexibilty for searching. 
 
+- Repeating actions for the entire nodelist - this requires the use of the for loop using array syntax. The number of items in the nodelist dictates how many times the for loop is run using the .length property applied to the created variable withing the {} of the for loop. Each item is given an array [i] number, as always, starting with 0. You can then change the value of the class att. within thefor loop using the [i] to indicate which one.
+
+    - warmObjects[i].className = 'cold';
+
+The code above applied within the for loop will change the class name and have different css styling applied to it to contain different colors, etc.
+
+- Traversing the DOM - parentNode, previousSibling, nextSibling, firstChild, lastChild.
+
+- Whitespace between nodes can be recognized as text nodes. These make your code easier to read but removing them helps your page run faster. 
+
+-jQuery - Helps browsers be less inconsistent. 
+
+- nodeValue - this applies to the method using the properties traversing the DOM 
+
+
+
 
 
 

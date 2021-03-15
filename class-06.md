@@ -38,6 +38,51 @@ The brackets are a good for when property or method name contains a -, is a numb
 
 You could essentially use the same notation for multiple listings. Say we have a hotel website that represents numerous hotels where you can book a room. The literal notation above could use the same exact code, the value of the three properties would be the only this changing in our code.
 
+# Chapter 5 Document Object Model
+
+- **DOM** Document Object Model. Operates on it;s own set of rules. These rules are run by the browser and do two things: 1. Make a model of an HTML page. 2. Access then change an HTML page.
+
+The DOM follows the structure of a website using a DOM tree.
+
+- **API** - Application Programming Interface. This allows programs to talk to one another. 
+
+### Four different nodes
+
+- Document - this node represents the entire page and is at the very top of our DOM tree.
+
+- Element - through the document node, you can then access the html elements.This is the first thing to look for once accessing the document. 
+
+- Attribute - these are considered part of the element they are attached to. These aren't children.
+
+- Text - this node is accessible after accessing the element. Cannot have children
+
+- Working with the DOM tree: 2 steps
+
+    1. Find node that represents the element you want.
+    2. Use the text, children, and attributes contained within. 
+
+- DOM manipulation - some methods (functions) allow you to add, remove, or create nodes in a tree.
+
+- DOM queries - methods which find elements in tree.
+
+- Caching - the method stores the location of an element so it does not have to find it again, saving time. You can use a variable to store the location, this is not storing the enitre element, but the variable is a reference to where it is in the DOM tree.
+
+- Nodelist - when a method locates more than one node. Each node then is given an index number just like in an array. The order of the items in the nodelist are stored in the same order as on the html page. These look like arrays but they actually aren't, they are **collections**.
+
+- live nodelist - the script updates the page, the list is also updated.
+
+- static nodelist - does not update when script updates the page.
+
+- Two ways to access an item on a nodelist: item() and array syntax.
+
+- item() method - You use this to look at all the info gathered by the selector. 'getElementByClassName('cold'). You then test how many items are in the index using the length propety in an if statment. 
+
+        if (elements.lenth >= 1 {
+            let firstItem = elements.item(0)
+        })
+
+- array syntax - is preferred method when searching using selectors. This supplies each item if found with an index number and can be accessed using that number. 
+
 
 
 

@@ -6,6 +6,10 @@ An Agile project is one where you work in a team tackling task that you are assi
 
 # Chapter 3 Duckett Object Literals
 
+To quote Jon Duckett from _Javascript and JQuery: interactive front-end developement_:
+
+>"Objects group together a set of variables and functions to create a model of something you would recognize from the real world. In an object, variables and functions take on new names" - Jon Duckett
+
 
 
 

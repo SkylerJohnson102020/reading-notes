@@ -97,14 +97,40 @@ The code above applied within the for loop will change the class name and have d
 
 -jQuery - Helps browsers be less inconsistent. 
 
-- nodeValue - this applies to the method using the properties traversing the DOM 
+- nodeValue - selects the text of an element. this applies to the method using the properties traversing the DOM. You can use this to update content of a text node.
+
+-textContent - property lets you gather and change of text in containing element and children.
+
+- innerText - you can use this property, but FireFox doesn't support it, CSS issues, and is just slower than textContent.
+
+### Two way to add or remove content from tree: innerHTML & DOM manipulation.
+
+- Adding elements using DOM Manipulation
+
+    1. creatElement()
+    2. createTextNode()
+    3. appendChild()
+
+- removeChild() - to remove items in tree
 
 
+### Three ways to add HTML to a webpage:
 
+    1. document.write() (not widely used at all)
+    2. element.innerHTML quick and easy changes but brings security risks
+    3. DOM Manipulation cleaner and more efficient, takes longer.
 
+- XSS attacks using innerHTML
 
+- Only add content from untrusted sources in the form of text, not as html code. This can cause a breach and websites can be stolen or information can be compromised.
 
+- escaping user content
 
+- attribute nodes - 
+
+- the appendChild() will add new elements to the DOM tree and it will add it at the end of the nodelist. One parameter, adds content to DOM. 
+
+- insertBefore() - use this to add items to the beginning of a nodelist. 
 
 [code201Table](code201Table.md)
 

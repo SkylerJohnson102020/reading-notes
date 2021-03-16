@@ -29,6 +29,25 @@ rowspan attribute lets you cover cells going down. rowspan = "2" will cover two 
 
 Long Tables are a bit different. Set your tr headings contained in the "thead" element.The body of your table will sit in the "tbody" element. "tfoot" for the footer of the table. 
 
-[code201Table](201/code201Table.md)
 
+## Chapter 3 Functions, Methods, and Objects
+
+ - Constructor Function - Rather than just write out every single object in object literal notation, which can use a ton of code, you use this constructor function. You create a template for the object, give it place holders with "this.", and pass the information from the variable below, so:
+
+        let Hotel (name, rooms, roomsBooked) {
+            this.name = name;
+            this.rooms = rooms;
+            this.roomsBooked = roomsBooked;
+            this.checkAvailabiltity = function (){
+                return this.rooms - this.roomsBooked;
+            };
+        };
+
+        let hotel1 = new Hotel (Indigo, 56, 23)
+        let hotel2 = new Hotel (Radisson, 100, 72)
+        let hotel3 = new Hotel (Blue, 75, 50)
+
+
+
+        
 [Back to Homepage](README.md)

@@ -27,6 +27,8 @@ colspan attribute lets you label how many cells across an element wil take. cols
 
 rowspan attribute lets you cover cells going down. rowspan = "2" will cover two cells vertically. 
 
+Long Tables are a bit different. Set your tr headings contained in the "thead" element.The body of your table will sit in the "tbody" element. "tfoot" for the footer of the table. 
+
 [code201Table](201/code201Table.md)
 
 [Back to Homepage](README.md)

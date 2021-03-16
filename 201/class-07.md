@@ -32,9 +32,9 @@ Long Tables are a bit different. Set your tr headings contained in the "thead" e
 
 ## Chapter 3 Functions, Methods, and Objects
 
- - Constructor Function - Rather than just write out every single object in object literal notation, which can use a ton of code, you use this constructor function. You create a template for the object, give it place holders with "this.", and pass the information from the variable below, so:
+ - Constructor Function - Rather than just write out every single object in object literal notation, which can use a ton of code, you use this constructor function. You create a template for the object, give it place holders with "this.", and pass the information from the variable below. The constructor function is capitalize to remind you that you need to use the new keyword when wanting to pass a new object through the constructor function. so:
 
-        let Hotel (name, rooms, roomsBooked) {
+        function Hotel (name, rooms, roomsBooked) {
             this.name = name;
             this.rooms = rooms;
             this.roomsBooked = roomsBooked;
@@ -43,11 +43,46 @@ Long Tables are a bit different. Set your tr headings contained in the "thead" e
             };
         };
 
-        let hotel1 = new Hotel (Indigo, 56, 23)
-        let hotel2 = new Hotel (Radisson, 100, 72)
-        let hotel3 = new Hotel (Blue, 75, 50)
+        let hotel1 = new Hotel(Indigo, 56, 23);
+        let hotel2 = new Hotel(Radisson, 100, 72);
+        let hotel3 = new Hotel(Blue, 75, 50);
+
+        The += operator - You want to use this when you are adding content to a already used variable.  
+
+An array is a unique kind of object. It stills holds the key/value pairs but the key is going to be an index number, not the property name.
+
+
+Built in objects are objects like a browser window and/or webpage shown. These are objects that make up the basic tools for pages. 
+
+Object Model - a collection of objects that together they represent a model of something much bigger.
+
+Three different kinds of built-in models:
+    1. Browser Object Model
+    2. Document Object Model
+    3. Global JS Objects
+
+Six types of data in JS: String, number, boolean, null, undefined, and object (arrays are objects). Functions are technically alos objects.
+
+### Review
+**Three built-in models**
+**Working with decimals (pg. 133)**
+**Math object (page 134)**
+**Date and Time (pg. 136-137, 139)**
+
+The order and syntax for date and time:
+
+year 4 digits
+month 0-11
+day 1-31
+hour 0-23
+minutes 0-59
+seconds 0-59
+milliseconds 0-999
+
+Computers will return date and time in milliseconds, use your math object and floor to get a readable figure.
 
 
 
-        
+[code201Table](201/code201Table.md)
+
 [Back to Homepage](README.md)

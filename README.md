@@ -3,7 +3,7 @@
 ### Table of Contents
 [code102 Reading Notes](code102Table.md)
 
-[code201 Reading Notes](code201Table.md)
+[code201 Reading Notes](201/code201Table.md)
 
 
 ## About Me

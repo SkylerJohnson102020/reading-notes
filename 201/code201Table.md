@@ -14,4 +14,6 @@
 
 [Reading 07](201/class-07.md)
 
+[Reading 08](201/class-08.md)
+
 [Back to Homepage](README.md)

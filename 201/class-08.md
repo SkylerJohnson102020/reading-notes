@@ -70,7 +70,11 @@ Separate your boxes in css using border, margin, padding, background colors, etc
 
 Left will make the left hand side of each box will not touch any others in that box. Same with setting it to right. Both will set it to both sides cannot touch. None, elements can touch.
 
+- You can create multi column layouts with floats. Using width (width of your column), float (to position the columns next to eachother), and margin (gap between columns). You can target each one with a class tag or call them all in one css {}.
 
+Screen sizes - keep this in mind when constructing your data. Phones all the way up to large screens. This impacts how much content a user will see.
+
+Screen resolutions - Number of dots per inch a screen displays.
 
 [code201Table](201/code201Table.md)
 

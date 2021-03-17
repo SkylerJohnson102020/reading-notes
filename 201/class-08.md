@@ -76,6 +76,23 @@ Screen sizes - keep this in mind when constructing your data. Phones all the way
 
 Screen resolutions - Number of dots per inch a screen displays.
 
+Page sizes - An interesting concept. This is like see a newspaper that is folded and all you see is the top half of the front page. Think of your webpage in this sense. When a user opens your page, they aren't going to see EVERYTHING right away on your page. You need to grab their attention in the upper portion. Generally, you want to tell your user in a space of about 570-600px what it is you want them to know, and then make it enticing enough for them to want to know more. You can't cram too much and make it looked chaotic, be clear. If you give the user a little bit of what is at the bottom of the page they will want to scroll.
+
+Fix-width layouts - This typoe of design doesn't change in size when a user adjusts the size of the browser window. Measurements are in px. Advantage, this is a very accurate method that allows the designer to have a lot of control over the site. The items will stay the same size depite the size of the window.
+
+Liquid layouts - adjust to the size of the browser window. These use measurements in %. This method can eliminate the potential for large spaces on the page, % fills these gaps. A disadvantage is the use of smaller screens. Content can overflow over other content. For a wide screen, this can result in very long lines of text stretching across the window. 
+
+Layout grids - webs designers use a 960 px grid to superimpose lines on the page to help create a layout. Examples on page 389. 
+
+CSS frameworks - To create a grid, set a class to the container holding the entire content of the page, set the class to container_12. This will set your page to be 960px wide. You can grab a 960gs stylesheet at 960gs.com page 391. Adding _clearfix_ to your class will ensure your browser to the containing box heighth since it contains floating elements only. 
+
+Multiple Style Sheets - You can have your html use one stylesheet linked in the head as usual. Then, you can import other stylesheets by using: @import. Or, you can link each stylesheet into the head of the html. **These imports must happen before any other rules are set, place this at the top.** 
+
+        @import url("colors.css");
+        @import url("tailwind.css");
+
+With all stylesheets, if you have multiple rules applied to the same element in different places on different stylesheets, the rules that appear later, or last, will be used over the previous rule(s).
+
 [code201Table](201/code201Table.md)
 
 [Back to Homepage](README.md)

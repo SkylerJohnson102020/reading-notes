@@ -63,11 +63,79 @@ placeholder - use this to put placeholder text in you bar that will disappear on
 
 **Follow example on pg 171!**
 
+# Chapter 14 Lists, Tables, and Forms
 
+Bullet point style
+list-style-type
 
+    ul - you can use disc, circle, or square
+    ol - decimal, decimal-leading zero, lower-alpha, upper-alpha, lower-roman, upper-roman.
 
+    ol {
+        list-style-type: decimal-leading-zero;
+    }
 
+You can also use images for the bullet points using list-style-image.
 
+        ul {
+            list-style-image: url("photos/salmon.png.")
+        }
+        li {
+            margin: 10px 0px 0px 0px;
+        }
+
+Positioning text in relation to bullet point. You can set traditional _outside_ where the point is to the left of the text or indented _inside_ where the point becomes part of the text and indents the first line.
+
+        ul.salmon {
+            list-style-positon: inside;
+            list-style-position: outside;
+        }
+
+Shorthand _list-style_
+
+        ul {
+            list-style: inside circle;
+            width: px;
+        }
+        li {
+            margin: px px px px;
+        }
+
+**Table Review (putting it together) pg. 337.**
+
+_empty cells_ - This property can hide empty cells. Use three att.: show, hide, and inherit.
+
+gaps between cells - _border-spacing_, _border-collapse_. 
+
+    td {
+        bacground-color:;
+        padding: px;
+        border:;
+    }
+    table.1 {
+        border-spacing: 5px, 5px;
+    }
+    table.2 {
+        border-collapse: collapse;
+        no pace between cells
+    }
+
+Styling text inputs **pg. 342**
+:focus pseudo class to change background-color of of text-input when used.
+:hover pseudo class sets different styles when the cursor is over these.
+
+Styling buttons **pg343** 
+
+Fieldsets and Legends - This is good for longer forms to group all the information together. Set width, color, background-color, border and radius, and padding.
+
+Cursor styles 
+        
+        a {
+            cursor: auto, crosshair, default,
+            pointer, move, text, wait, help, or load an image.
+        }
+
+**Code example on page 351.**
 
 
 [code201Table](201/code201Table.md)

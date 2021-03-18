@@ -34,6 +34,35 @@ Radio buttons on pg 155. type="radio" You have to input each button separately u
 
 Checkbox, same idea as radio button. type="checkbox" checked att is something you us here too.
 
+Drop-downs - use select element. This will contain one or more option elements. Use option to specify an option to select. Text between the tag will be shown in the drop down. Value att., the type of data being sent to server. Selected att. this will show/indicate the selected option (highlight or checkmark)
+
+Multiple select box - use select element for this. use the size att. to adjust how many values you want displayed. use the number of options you want to appear. The multipl att. allows user to select more than one answer
+
+File input box - use input element. use this to upload files. specify type="file". This will generate browse and upload buttons. 
+
+Submit button - use input element and set type="submit". the value att. let's you specify what text will show on the button. 
+
+image button - use input element and specify type="image". You can use an image as your button. Follow the code on pg. 161. 
+
+Button and hidden controls - use button element. You can combine text and images within the button container. use input element to use your type="hidden". Review pg. 162.
+
+Labelling form controls. You will want to review this on page 163. 
+
+Fieldset element 
+
+legend element
+
+Form validation - You a user doesn;t input anything and the server return a message saying to the user "fill this out". 
+
+Enter date - use input element and specify type="date"
+
+email - use input and specify type="email". For websites use type="url". 
+
+type="search" for search input.
+placeholder - use this to put placeholder text in you bar that will disappear once the use clicks on the bar.
+
+**Follow example on pg 171!**
+
 
 
 

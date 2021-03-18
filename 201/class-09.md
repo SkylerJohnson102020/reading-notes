@@ -137,6 +137,28 @@ Cursor styles
 
 **Code example on page 351.**
 
+# Chapter 6 JS: Events (pg. 243-292)
+
+Three ways to bing an event to and element
+
+-HTML Event Handlers - DO NOT USE
+
+-DOM Event Handlers - This method allows one event per function. pg 252
+
+        element.anevent = functionName
+
+        Here you can see the target DOM element being targeted, the event connected to the element, and the names of the function for this event. We do not want our code to run until the designated event has fired, we omit the () in the function call since the interpreter finds functions first before and other code. This means you can't pass arguements into it.
+
+**GREAT Example on pg 253 to review**
+
+
+-Dom Level 2 event listeners - These can handle more than one function at a time. **Pg 254** Write your function first. These take parameters, the event it is listening to, the code it needs to run when it fires, and a boolean telling how the event flows. The () are omitted from the function call since the interpreter would run it as the page loads.
+
+**Since you can't pass arguements into the function with the () omitted, there is a way to work around this.** pg. 256 You do this by wrapping the function into an **anonymous function**. The named function that needs arguements sits inside the curly brackets of the anonymous function. 
+
+Event flow - pg 260
+
+The Event Object - passed into the function as a parameter labeled "e". This is a tough one one, review **pg. 262-265**. 
 
 [code201Table](201/code201Table.md)
 

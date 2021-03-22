@@ -49,6 +49,42 @@ Contrast background images - If you want your text to appear over an image, gene
 
 Use a large element (html, body) to apply general properties and give is an id or class of **wrapper**. 
 
+# Chapter 19 Practical Information
+
+Search Engine Optimization (SEO) - The ability to be seen better on a search engine.
+
+Keywords are huge for this.
+
+Having links to and from other sites also improves visibility. 
+
+Seven places where keyeword are located on the page to help users find you.
+
+1. Page Title
+2. URL
+3. Heading
+4. Text
+5. Link Text
+6. Image alt Text
+7. Page description
+
+Make sure your keywords appear in these places, but don't over use the words. The **meta** tag is where you can place information about your page, including keywords. 
+
+Identifying keywords and phrases
+
+1. Brainstorm - come up with a list
+2. Organize - categorize them
+3. Research - use tools to get suggestions
+4. Compare - look at other sites and how they land in a search
+5. Refine - choose certain keywords that might work best. If there is one that is very relevant to your page but many others are using, still use it.
+6. Map - Choose 3-5 words for each page of your site.
+
+Use analytics to understand how users found you. This can show you things like how many visitors, how they found you, how long they stayed, how many pages they visited, etc. Bounce rate shows you people that left the same page they enetered. This may suggest they were not interested.
+
+File Transfer Protocol (FTP) - transferring your code and images to a hosting company from your computer. 
+
+
+
+
 
 [code201Table](201/code201Table.md)
 

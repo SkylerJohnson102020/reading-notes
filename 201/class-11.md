@@ -83,8 +83,54 @@ Use analytics to understand how users found you. This can show you things like h
 File Transfer Protocol (FTP) - transferring your code and images to a hosting company from your computer. 
 
 
+# Video and Audio APIs (Application Programming Interface)
 
+Follow along with the code examples at: https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Video_and_audio_APIs
 
+Use the audio and video html elements to set up audio and video in your site.
+
+            <video controls>
+                <source src="video1.mp4" type="video/mp4">
+                <source src="video2.webm" type="video/webm">
+                <p>Browser does not support HTML5 video. Here is a link: <p>
+                </video>
+
+Use the _controls_ att. This will set the default video play controls. These controls are different with every browser. Also, broswers tend to not be very keyboard accessible when it comes to play controls, so it might be good to set these in your html, css, and js.
+
+Wrap your entire video player into a div tag as a wrapper.Have multiple versions of the same video so that different browsers will be able to load the video.
+
+_aria-label_ att. provides description of each button
+
+Using CSS - site examples on website. You set stylings for the video player, buttons, fonts, and timer. 
+
+Using JS, you will need to create constants representing all of these items. media, controls, play, stop, rwd, fwd, timerWrapper, timer, and timeBar.
+
+        const play = document.queryselector('.play');
+
+Then use the code below to remove default controls:
+
+        media.removeAttribute('controls');
+        controls.style.visibility = 'visible';
+
+Add an event listener for the play/pause button.
+
+        play.addEventListener('click', playPauseVideo);
+
+Then, setup your function: view example on site.
+
+        function playPauseVideo() {
+            if(video.paused) {
+                play.setAttribute('data-icon', .........
+            } else {
+                play.setAttribute.......
+            }
+        }
+
+Note: There is no stop() method. This can be done using pause() and set the currentTime property to 0. 
+
+The play controls in a function need to be set up to where an action needs to be canceled before another activates otherwise our code will break. Example, you have to set up a control to where the play function gets canceled so pause can be activated.
+
+For the timer, you need to create an event listener to update the timer on the video. Again, see example near the end of the web article. 
 
 [code201Table](201/code201Table.md)
 

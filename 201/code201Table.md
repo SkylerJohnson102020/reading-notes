@@ -20,6 +20,6 @@
 
 [Reading 10](201/class-10.md)
 
-[Reading 11](201/class-11.md)
+[Reading 12](./201/class-12.md)
 
 [Back to Homepage](README.md)

@@ -139,6 +139,6 @@ CSS animations, @keyframes - https://codepen.io/akshaychauhan/pen/oAfae
 
 Bounce Animation - https://codepen.io/dp_lewis/pen/gCfBv
 
-[code201Table](./201/code201Table.md)
+[code201Table](/201/code201Table.md)
 
 [Back to Homepage](README.md)

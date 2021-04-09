@@ -83,6 +83,6 @@ Computers will return date and time in milliseconds, use your math object and fl
 
 
 
-[code201Table](201/code201Table.md)
+[code201Table](/201/code201Table.md)
 
 [Back to Homepage](README.md)

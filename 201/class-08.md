@@ -93,6 +93,6 @@ Multiple Style Sheets - You can have your html use one stylesheet linked in the 
 
 With all stylesheets, if you have multiple rules applied to the same element in different places on different stylesheets, the rules that appear later, or last, will be used over the previous rule(s).
 
-[code201Table](201/code201Table.md)
+[code201Table](/201/code201Table.md)
 
 [Back to Homepage](README.md)

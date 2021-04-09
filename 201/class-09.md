@@ -160,6 +160,6 @@ Event flow - pg 260
 
 The Event Object - passed into the function as a parameter labeled "e". This is a tough one one, review **pg. 262-265**. 
 
-[code201Table](201/code201Table.md)
+[code201Table](/201/code201Table.md)
 
 [Back to Homepage](README.md)

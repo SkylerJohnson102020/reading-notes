@@ -26,6 +26,6 @@ Also, removeItem() or clear() methods.
 Each origin gets 5 MB of storage as a default. Remember, you are storing stings.
 
 
-[code201Table](./201/code201Table.md)
+[code201Table](/201/code201Table.md)
 
 [Back to Homepage](README.md)

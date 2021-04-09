@@ -132,6 +132,6 @@ The play controls in a function need to be set up to where an action needs to be
 
 For the timer, you need to create an event listener to update the timer on the video. Again, see example near the end of the web article. 
 
-[code201Table](201/code201Table.md)
+[code201Table](/201/code201Table.md)
 
 [Back to Homepage](README.md)

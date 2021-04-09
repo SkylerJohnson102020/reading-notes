@@ -211,6 +211,6 @@
 
 - suffix - [$=] - matches att. with values ending with certain string. h1[attr$"t"] will target any h1 that ends with t.
 
-[code201Table](201/code201Table.md)
+[code201Table](/201/code201Table.md)
 
 [Back to Homepage](README.md)

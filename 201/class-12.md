@@ -52,6 +52,6 @@ https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Applying_st
 ### Drawing Text
 https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Drawing_text
 
-[code201Table](./201/code201Table.md)
+[code201Table](/201/code201Table.md)
 
 [Back to Homepage](README.md)

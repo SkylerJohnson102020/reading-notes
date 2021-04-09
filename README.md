@@ -1,10 +1,17 @@
 # Welcome to Skyler Johnson's Reading Notes
 
-### Table of Contents
+# Table of Contents
+
+## Code 102 - Intro to Software Development
 [code102 Reading Notes](code102Table.md)
 
+## Code 201 - Foundations of Software Development
 [code201 Reading Notes](/201/code201Table.md)
 
+## Code 301 - Intermediate Software Development
+[code301 Reading Notes](/301/code301Table.md)
+
+## Code 401 - Advanced Software Development
 
 ## About Me
 My name is **Skyler Johnson**, and at 37 years of age, I decided due to the COVID-19 pandemic to take a new path toward programming. This was a long and difficult decision to make, but ultimately what made this the right choice was my family and how heavily the pandemic has had an impact on my current field. For the last 20 years, I have pursued a career in music playing in several symphony orchestras and teaching at multiple universites. Currently, I am the bass trombonist of the Spokane Symphony Orchestra and faculty at Whitworth University. I am living in Spokane with my wife, Heather, and my 4 month old son, Jonah. Programming is very new to me but I am excited for a new beginning. I wanted to find a path that will allow me to apply my problem solving skills I developed through my training as a musician, and I believe programming is that path.

@@ -1,6 +1,6 @@
 # React
 
-- Immutability - this makes it easier on us. An object or value that is immutable can't be changed. Each updates creates a new value and leaves the old one alone. 
+- Immutability - this makes it easier on us. An object or value that is immutable can't be changed. Each updates creates a new value and leaves the old one alone. Once the element is created, the children or atts cannot be changed.
 
 - props - properties. Use props when passing state from parent component to child.
 
@@ -45,6 +45,19 @@ React.createElement() creates a objects and runs some checks helping your code t
 
 # Rendering Elements
 
+https://reactjs.org/docs/rendering-elements.html
 
+React elements are simple objects and are easy to create. React DOM updates the DOM and matches React elements.
+
+Rendering - ReactDOM.render():
+Apps built with React only may have only one root DOM node, like a div. If you are working on a pre-existing app, you can have many isolated root DOM nodes.
+
+A React element is it's own point in time, immutable.
+
+React will only update what it deems necessary. Rather than updating the entire app, the ReactDOM compares an element plus it's children to the previous and will only update where necessary to get the DOM to the state wanted.
+
+# Components and Props
+
+https://reactjs.org/docs/components-and-props.html
 
 [code301 Reading Notes](/301/code301Table.md)

@@ -24,6 +24,24 @@ https://reactjs.org/docs/state-and-lifecycle.html
 
 # Handling Events
 
+https://reactjs.org/docs/state-and-lifecycle.html
 
+- name React events using camelCase
+
+- pass function as event handler, not string.
+
+# Conditional Rendering 
+
+https://reactjs.org/docs/conditional-rendering.html
+
+- use variables to store elemets for conditionals.
+
+- embed JSX expressions using {}.
+
+- Use your conditional operators in your statements. Using && will create a strict equals to scenraio. If the first condition is false, the second is skipped.
+
+- the ? operator. This is a conitional operator rendering true or false.
+
+- If wanting a component to hide itself and not render it's output, make that component "return null". You can of course skip this using an if statement. Setting the return null in the component will skip it in your render method.
 
 [code301 Reading Notes](/301/code301Table.md)

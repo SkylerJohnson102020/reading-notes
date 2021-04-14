@@ -4,6 +4,8 @@
 
 [read02](read02.md)
 
+[read03](read03.md)
+
 
 [code301 Reading Notes](/301/code301Table.md)
 

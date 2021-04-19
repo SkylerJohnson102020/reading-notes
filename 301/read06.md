@@ -46,3 +46,5 @@ https://www.codefellows.org/blog/6-reasons-for-pair-programming/
 4. Social Skills
 5. Interview preparedness
 6. Work environment preparedness
+
+[code301 Reading Notes](/301/code301Table.md)

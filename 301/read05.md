@@ -3,7 +3,7 @@
 https://reactjs.org/docs/thinking-in-react.html
 
 - Step 1 - Break UI into a component hierarchy. 
-Keep in mind a good top-down flow. Strive to make sure that each component is handling one thing, called the **single responsilbility rule**. Follow this principle when you have to create a new object or function/class. (Draw out a flow chart, data model) Remember to break your UI into components and each one will match a piece of your data model.
+Keep in mind a good top-down flow. Strive to make sure that each component is handling one thing, called the **single responsibility rule**. Follow this principle when you have to create a new object or function/class. (Draw out a flow chart, data model) Remember to break your UI into components and each one will match a piece of your data model.
 
 - Step 2 - Static version build
 If you are building a static version of your app, you will not need to use state since state is used for interactivity between the separate components. As always, for passing data from parent to child, use props.

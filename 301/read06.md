@@ -45,4 +45,4 @@ https://www.codefellows.org/blog/6-reasons-for-pair-programming/
 3. Learning from your colleagues
 4. Social Skills
 5. Interview preparedness
-6. Wor environment preparedness
+6. Work environment preparedness

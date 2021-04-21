@@ -56,15 +56,17 @@ Level 3 - Use hypermedia (HATEOAS).
 
 ### HATEOAS 
 
+- URI - Uniform Resource Identifier.
+
 - HATEOAS - Hypermedia as the Engine of Application State - clients interact with a certain network app whose app servers return information through hypermedia. Contains only the info necessary to shift to one atate from another.
 
-- MIME - 
+- MIME - Multipurpose Internet Mail Extensions - extends format of emails messages and supports attachments like audio/video.
 
 - URI versioning - Adding a version number to the URI for each of the resources. This will allow other versions to continue to operate. This, however, may complicate HATEOAS.
 
 - Query string versioning - add a version number of the desired resource using a parameter contained in your query string which will be appended to the HTTP request. Has some of the same complications with HATEOAS.
 
-- Header versioning - use a custom header that indicate the desired version.
+- Header versioning - use a custom header that indicates the desired version.
 
 - Media type versioning - name the desired format using Accept in the header in the request.
 

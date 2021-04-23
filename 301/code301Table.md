@@ -18,6 +18,8 @@
 
 [read09](read09.md)
 
+[read010](read10.md)
+
 [code301 Reading Notes](/301/code301Table.md)
 
 [Back to Homepage](README.md)

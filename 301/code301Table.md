@@ -22,6 +22,8 @@
 
 [read011](read11.md)
 
+[read012](read12.md)
+
 [code301 Reading Notes](/301/code301Table.md)
 
 [Back to Homepage](README.md)

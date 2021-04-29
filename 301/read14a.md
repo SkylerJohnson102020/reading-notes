@@ -38,4 +38,9 @@ Article 3:
 
     - Keeping a vibrant working communinity that matches the same vibrancy of the user-base ensures a well rounded, stronger company to meet all needs of their users.
 
+
+## Things I want to know more section
+
+    - What are smaller companies doing in general for this? We are only seeing the larger companies. Are they making an equal effort?
+
 [code301 Reading Notes](/301/code301Table.md)

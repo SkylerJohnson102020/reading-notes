@@ -35,7 +35,21 @@ https://rob-bell.net/2009/06/a-beginners-guide-to-big-o-notation
 
 - Stacks - a data structure that is an array or list of function calls and their params. A stack of books, plates, papers, etc.
 
+# Names and Values in Python
 
+- Names refer to values. 
+
+- Many names can refer to one value. 
+
+- Names are reassigned independently from one another. 
+
+- Mutable aliasing - Values exist until there are no references left. Assignment does not copy data, you create an additional name referring to the same list. Can have multiple names.
+
+- Immutable data types - ints, floats, strings, tuples
+
+- Rebinding - changes a value
+
+- Mutating - changing a list. (append a value to the end.)
 
 
 [code401 Reading Notes](/401Python/code401Table.md)

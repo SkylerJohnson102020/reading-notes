@@ -19,6 +19,23 @@
 
 # Big O Notation
 
-- Big O - worst-case scenario
+https://rob-bell.net/2009/06/a-beginners-guide-to-big-o-notation
 
-- 0(1) - 
+- Big O - worst-case scenario, always assumes the largest/longest performance outcome. Evaluating efficiency. How well does this perform? How much time and memory does it take?
+
+- O(1) - algorithm which executes in the same time/space. **Constant** time - does not matter what the size of the file, it takes the same time.
+
+- O(N) - grows **linear** and in proportion to the size of the input. N represents the number of nodes in list. Depends on the size of the file to determine performance.
+
+- O(N**2) - performance is the square of the of the input data. Common with nested loops. Growth is exponential.
+
+- O(2^N) - growth doubles with every new addition to the input. Growth is **exponential**. Rises very fast.
+
+- Logarithms O(log N) - **Linear** growth. A good way to search sorted data. Basically starting in the middle and comparing, then eliminating the possibilities. It halves the data each time it works to eliminate one half each time and eventually will find the value. Great explanation in the article.
+
+- Stacks - a data structure that is an array or list of function calls and their params. A stack of books, plates, papers, etc.
+
+
+
+
+[code401 Reading Notes](/401Python/code401Table.md)

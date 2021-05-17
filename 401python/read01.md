@@ -18,3 +18,7 @@
 
 
 # Big O Notation
+
+- Big O - worst-case scenario
+
+- 0(1) - 

@@ -40,10 +40,38 @@ https://code.likeagirl.io/in-tests-we-trust-tdd-with-python-af69f47e6932
 
 https://www.geeksforgeeks.org/recursion/
 
-- Recursion - 
+- Recursion - A quote from the above article in "GeeksforGeeks" on "Recursion" contributed by Sonal Tuteja: 
 
+> "The process in which a function calls itself directly or indirectly is called recursion and the corresponding function is called as recursive function."
 
+- recursion is a function calling itself within and the function within is the recursive function.
 
+- A recursive function has a base case that is provided. The solution to a larger problem is described in smaller problems.
 
+- Presents the large problem in a series of one or more smaller problems.
+
+- Stack Overflow - if the memory is exhausted due to the base case not being reached.
+
+- Direcrt recursion - A function calls the same function, itself.
+
+        def skyler() 
+        {
+            skyler()
+        }
+
+- Indirect recursion - A function calls a slighty different function that calls the original function directly or indirectly
+
+        def skyler()
+        {
+            skyler_new()
+        }
+
+- Tailed recursion - the last thing to be called in the function is the recursive function call.
+
+- Memory - the stack
+
+- Functions will remain in the stack until the base case is reached. This is a disadvantage.
+
+- Recursive functions are clean and easy to read.
 
 [code401 Reading Notes](/401Python/code401Table.md)

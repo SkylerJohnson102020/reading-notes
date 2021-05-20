@@ -53,6 +53,18 @@ Two things to consider when maintaining the state during recursion: (From Articl
 
 - READ ARTICLE AGAIN AND AGAIN
 
+# Python Testing
 
+https://www.linuxjournal.com/content/python-testing-pytest-fixtures-and-coverage
+
+- Pytest - a library for testing Python code.
+
+### Fixtures
+
+Fixtures supply objects available to your tests and this data could be data you want to share across multiple tests and these may also use the network. Fixtures take on many forms.
+
+### Coverage
+
+Make sure you have your code covered by testing many scenarios. Make sure you use raise to throw exceptions in the code. Download **pytest-cov** on PyPl.Once you have that, you can run pytest with the --cov option.You will receive a coverage report. 
 
 [code401 Reading Notes](/401Python/code401Table.md)

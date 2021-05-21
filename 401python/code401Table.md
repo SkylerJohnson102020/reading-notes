@@ -8,6 +8,8 @@
 
 [read04](/401Python/read04.md)
 
+[read05](/401Python/read05.md)
+
 [code401 Reading Notes](/401Python/code401Table.md)
 
 [Back to Homepage](README.md)

@@ -38,4 +38,4 @@ From the article:
 > 4. Incomplete requirements
 
 
-[code401 Reading Notes](/401Python/code401Table.md)
+[code401 Reading Notes](../401Python/code401Table.md)

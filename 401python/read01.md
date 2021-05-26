@@ -52,4 +52,4 @@ https://rob-bell.net/2009/06/a-beginners-guide-to-big-o-notation
 - Mutating - changing a list. (append a value to the end.)
 
 
-[code401 Reading Notes](/401Python/code401Table.md)
+[code401 Reading Notes](../401Python/code401Table.md)

@@ -67,4 +67,4 @@ Fixtures supply objects available to your tests and this data could be data you 
 
 Make sure you have your code covered by testing many scenarios. Make sure you use raise to throw exceptions in the code. Download **pytest-cov** on PyPl.Once you have that, you can run pytest with the --cov option.You will receive a coverage report. 
 
-[code401 Reading Notes](/401Python/code401Table.md)
+[code401 Reading Notes](../401Python/code401Table.md)

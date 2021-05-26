@@ -49,4 +49,4 @@ Change the size of a linked list - rearrange the pointers, references.
 
 
 
-[code401 Reading Notes](/401Python/code401Table.md)
+[code401 Reading Notes](../401Python/code401Table.md)

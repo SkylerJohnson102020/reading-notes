@@ -117,4 +117,4 @@ From article:
 
 - you can't create lazy variables with a nonlocal statement.
 
-[code401 Reading Notes](/401Python/code401Table.md)
+[code401 Reading Notes](../401Python/code401Table.md)

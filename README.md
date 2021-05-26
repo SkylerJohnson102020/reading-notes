@@ -6,13 +6,13 @@
 [code102 Reading Notes](code102Table.md)
 
 ## Code 201 - Foundations of Software Development
-[code201 Reading Notes](/201/code201Table.md)
+[code201 Reading Notes](201/code201Table.md)
 
 ## Code 301 - Intermediate Software Development
-[code301 Reading Notes](/301/code301Table.md)
+[code301 Reading Notes](301/code301Table.md)
 
 ## Code 401 - Advanced Software Development in Python
-[code401 Python Reading Notes](/401/code401Table.md)
+[code401 Python Reading Notes](401python/code401Table.md)
 
 
 ## About Me

@@ -133,4 +133,4 @@ https://realpython.com/read-write-files-python/
 -       __exit__() - use when exiting the statement code block.
 
 
-[code401 Reading Notes](/401Python/code401Table.md)
+[code401 Reading Notes](../401Python/code401Table.md)

@@ -16,6 +16,8 @@
 
 [read08](../401Python/read08.md)
 
+[read09](../401Python/read09.md)
+
 [code401 Reading Notes](./401Python/code401Table.md)
 
 [Back to Homepage](../README.md)

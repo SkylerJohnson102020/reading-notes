@@ -30,6 +30,10 @@
 
 [read15](../401Python/read15.md)
 
+[read16](../401Python/read16.md)
+
+[read18](../401Python/read18.md)
+
 [code401 Reading Notes](./401Python/code401Table.md)
 
 [Back to Homepage](../README.md)

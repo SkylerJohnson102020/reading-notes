@@ -36,7 +36,9 @@
 
 [read19](../401Python/read19.md)
 
-[read19](../401Python/read26Django.md)
+[read26](../401Python/read26Django.md)
+
+[read27](../401Python/read27DjangoModels.md)
 
 [code401 Reading Notes](./401Python/code401Table.md)
 

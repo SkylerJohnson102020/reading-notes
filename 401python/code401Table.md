@@ -40,6 +40,8 @@
 
 [read27](../401Python/read27DjangoModels.md)
 
+[read28](../401Python/read27DjangoForms.md)
+
 [code401 Reading Notes](./401Python/code401Table.md)
 
 [Back to Homepage](../README.md)

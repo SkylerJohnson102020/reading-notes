@@ -44,6 +44,10 @@
 
 [read29](../401Python/read29DjangoCustomUser.md)
 
+[read29](../401Python/readHashTables.md)
+
+[read29](../401Python/readDocker.md)
+
 [code401 Reading Notes](./401Python/code401Table.md)
 
 [Back to Homepage](../README.md)

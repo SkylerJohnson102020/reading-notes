@@ -50,6 +50,8 @@
 
 [read32](../401Python/readAuthandProduction.md)
 
+[read32](../401Python/readDjangoSettings.md)
+
 [code401 Reading Notes](./401Python/code401Table.md)
 
 [Back to Homepage](../README.md)

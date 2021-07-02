@@ -13,6 +13,8 @@ https://codefellows.github.io/common_curriculum/data_structures_and_algorithms/C
 "
 # Youtube Resources
 
+https://www.youtube.com/watch?v=HDUzBEG1GlA
+
 https://www.youtube.com/watch?v=uFaZY1dVnGs
 
 https://www.youtube.com/watch?v=j0IYCyBdzfA

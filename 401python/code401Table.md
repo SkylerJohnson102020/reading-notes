@@ -50,7 +50,11 @@
 
 [read32](../401Python/readAuthandProduction.md)
 
-[read32](../401Python/readDjangoSettings.md)
+[read33](../401Python/readDjangoSettings.md)
+
+[read34](../401Python/readGraphs.md)
+
+[read35](../401Python/readREACT.md)
 
 [code401 Reading Notes](./401Python/code401Table.md)
 

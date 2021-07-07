@@ -54,7 +54,10 @@
 
 [read34](../401Python/readGraphs.md)
 
-[read35](../401Python/readREACT.md)
+[read37](../401Python/readREACT.md)
+
+[read38](../401Python/readREACTPart2.md)
+
 
 [code401 Reading Notes](./401Python/code401Table.md)
 

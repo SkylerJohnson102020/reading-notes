@@ -58,6 +58,7 @@
 
 [read38](../401Python/readREACTPart2.md)
 
+[read39](../401Python/readNextJS.md)
 
 [code401 Reading Notes](./401Python/code401Table.md)
 

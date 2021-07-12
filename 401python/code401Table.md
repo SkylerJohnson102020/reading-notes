@@ -60,6 +60,8 @@
 
 [read39](../401Python/readNextJS.md)
 
+[read41](../401Python/readNextJS2.md)
+
 [code401 Reading Notes](./401Python/code401Table.md)
 
 [Back to Homepage](../README.md)

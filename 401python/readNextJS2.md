@@ -9,4 +9,16 @@ npm install dat-fns <---- to format a date
 
 > "Server-side Rendering is the pre-rendering method that generates the HTML on each request."
 
+## Deployment
+
+https://nextjs.org/learn/basics/deploying-nextjs-app
+
+## Static File Serving
+
+https://nextjs.org/docs/basic-features/static-file-serving
+
+## YouTube - Next.js 10
+
+https://www.youtube.com/watch?v=JWCS5IdECVI
+
 [code401 Reading Notes](../401Python/code401Table.md)

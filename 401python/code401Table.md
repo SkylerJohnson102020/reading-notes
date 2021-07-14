@@ -64,6 +64,8 @@
 
 [read42](../401Python/readPythonisms.md)
 
+[Ethics in Tech](../401Python/readEthics.md)
+
 [code401 Reading Notes](./401Python/code401Table.md)
 
 [Back to Homepage](../README.md)

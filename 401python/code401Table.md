@@ -66,6 +66,8 @@
 
 [Ethics in Tech](../401Python/readEthics.md)
 
+[Open Source](../401Python/readOpenSource.md)
+
 [code401 Reading Notes](./401Python/code401Table.md)
 
 [Back to Homepage](../README.md)
